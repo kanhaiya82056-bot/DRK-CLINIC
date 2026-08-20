@@ -1,0 +1,3391 @@
+<!DOCTYPE html>
+<html lang="hi-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Ranjeet Kumar Naturopathy Clinic | Sirdala, Nawada</title>
+  <meta name="description" content="Dr. Ranjeet Kumar Naturopathy Clinic, Sirdala, Nawada में naturopathy consultation, lifestyle wellness, diet guidance और online appointment services।">
+  <meta name="keywords" content="Dr Ranjeet Kumar, Naturopathy, BNYS, Sirdala, Nawada, Bihar, Health, Lifestyle Wellness, Natural Healing, Appointment">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Ranjeet Kumar Naturopathy Clinic | Sirdala, Nawada">
+  <meta property="og:description" content="Natural Healing • Healthy Lifestyle • Better Living. BNYS Expert Doctor Consultation in Sirdala, Nawada.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS & Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-deep: #1b4332;
+      --primary-forest: #2d6a4f;
+      --primary-leaf: #40916c;
+      --primary-mint: #d8f3dc;
+      --bg-cream: #fcfdf9;
+      --accent-gold: #d4af37;
+      --text-dark: #212529;
+      --text-muted: #6c757d;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --shadow-subtle: 0 4px 20px rgba(27, 67, 50, 0.08);
+      --shadow-hover: 0 8px 30px rgba(27, 67, 50, 0.15);
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--text-dark);
+      overflow-x: hidden;
+      padding-bottom: 70px; /* Space for sticky mobile bar */
+    }
+
+    h1, h2, h3, .font-heading {
+      font-family: 'Playfair Display', serif;
+    }
+
+    /* Custom Navbar */
+    .navbar-clinic {
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+      border-bottom: 2px solid var(--primary-mint);
+    }
+
+    .brand-logo-icon {
+      width: 42px;
+      height: 42px;
+      background: linear-gradient(135deg, var(--primary-forest), var(--primary-leaf));
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      color: var(--text-dark);
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary-forest);
+    }
+
+    /* Buttons */
+    .btn-naturopathy {
+      background: linear-gradient(135deg, var(--primary-deep), var(--primary-forest));
+      color: white;
+      font-weight: 600;
+      border-radius: 30px;
+      padding: 10px 24px;
+      border: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(27, 67, 50, 0.2);
+    }
+
+    .btn-naturopathy:hover {
+      background: linear-gradient(135deg, var(--primary-forest), var(--primary-leaf));
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(27, 67, 50, 0.3);
+    }
+
+    .btn-outline-naturopathy {
+      border: 2px solid var(--primary-forest);
+      color: var(--primary-forest);
+      font-weight: 600;
+      border-radius: 30px;
+      padding: 8px 22px;
+      background: transparent;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline-naturopathy:hover {
+      background-color: var(--primary-forest);
+      color: white;
+    }
+
+    /* Hero Section */
+    .hero-wrapper {
+      background: linear-gradient(135deg, #eaf4ed 0%, #f4f9f5 100%);
+      border-radius: 0 0 32px 32px;
+      padding: 60px 0 80px;
+      position: relative;
+    }
+
+    .hero-badge {
+      background-color: var(--primary-mint);
+      color: var(--primary-deep);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    .hero-card-img {
+      border-radius: 24px;
+      box-shadow: var(--shadow-hover);
+      border: 4px solid white;
+    }
+
+    /* Trust Bar Cards */
+    .trust-card {
+      background: white;
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(64, 145, 108, 0.15);
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .trust-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--primary-leaf);
+    }
+
+    .trust-icon {
+      width: 50px;
+      height: 50px;
+      background-color: var(--primary-mint);
+      color: var(--primary-deep);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+    }
+
+    /* Section Styling */
+    .section-title {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 4px;
+      background-color: var(--primary-leaf);
+      border-radius: 2px;
+    }
+
+    /* Service Cards */
+    .service-card {
+      background: white;
+      border-radius: var(--radius-md);
+      padding: 24px;
+      border: 1px solid #e9ecef;
+      box-shadow: var(--shadow-subtle);
+      transition: all 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      box-shadow: var(--shadow-hover);
+      border-color: var(--primary-leaf);
+      transform: translateY(-4px);
+    }
+
+    /* Product Cards */
+    .product-card {
+      background: white;
+      border-radius: var(--radius-md);
+      border: 1px solid #e9ecef;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .product-img-box {
+      height: 180px;
+      background: #f8f9fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      color: var(--primary-forest);
+    }
+
+    /* Floating WhatsApp & Telegram Buttons */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 85px;
+      right: 20px;
+      width: 55px;
+      height: 55px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      z-index: 1030;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .telegram-float {
+      position: fixed;
+      bottom: 150px;
+      right: 20px;
+      width: 55px;
+      height: 55px;
+      background-color: #229ed9;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      box-shadow: 0 4px 15px rgba(34, 158, 217, 0.4);
+      z-index: 1030;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .whatsapp-float:hover, .telegram-float:hover {
+      transform: scale(1.1);
+      color: white;
+    }
+
+    /* Mobile Bottom Bar */
+    .mobile-bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 15px;
+      z-index: 1040;
+    }
+
+    /* Symptom Checker styling */
+    .symptom-badge-check {
+      cursor: pointer;
+      user-select: none;
+      padding: 10px 18px;
+      border-radius: 20px;
+      border: 2px solid #dee2e6;
+      background: white;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: inline-block;
+      margin: 4px;
+    }
+
+    .symptom-checkbox:checked + .symptom-badge-check {
+      background-color: var(--primary-mint);
+      border-color: var(--primary-forest);
+      color: var(--primary-deep);
+      font-weight: 700;
+    }
+
+    /* Professional E-Prescription Letterhead & Print Media Styles */
+    .prescription-paper {
+      position: relative;
+      background: #ffffff;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .prescription-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.035;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+      width: 80%;
+      text-align: center;
+    }
+
+    .prescription-letterhead-logo {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      background: var(--primary-forest);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      box-shadow: 0 4px 10px rgba(30, 86, 49, 0.2);
+    }
+
+    .rx-symbol-badge {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--primary-forest);
+    }
+
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 10mm 12mm 10mm 12mm;
+      }
+
+      html, body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      body * {
+        visibility: hidden !important;
+      }
+
+      #printable-prescription,
+      #printable-prescription * {
+        visibility: visible !important;
+      }
+
+      #printable-prescription {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        padding: 20px 25px !important;
+        border: 2px solid #1e5631 !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+        box-shadow: none !important;
+        page-break-inside: avoid !important;
+      }
+
+      .no-print,
+      nav,
+      footer,
+      .navbar,
+      .whatsapp-float,
+      .telegram-float,
+      .mobile-bottom-bar,
+      .toast-container,
+      .modal,
+      .modal-backdrop,
+      #symptom-checker,
+      #appointment,
+      #store,
+      #dashboard,
+      #contact,
+      #home,
+      #about,
+      #services {
+        display: none !important;
+      }
+
+      .prescription-watermark {
+        display: block !important;
+        opacity: 0.05 !important;
+      }
+
+      .prescription-letterhead {
+        border-bottom: 3px double #1e5631 !important;
+        padding-bottom: 12px !important;
+        margin-bottom: 16px !important;
+      }
+
+      .clinic-logo-emblem {
+        background-color: #1e5631 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .bg-light-subtle,
+      .bg-success-subtle {
+        background-color: #f3f8f4 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .border-success {
+        border-color: #1e5631 !important;
+      }
+
+      .badge {
+        border: 1px solid #1e5631 !important;
+        color: #1e5631 !important;
+        background-color: #f1f8f3 !important;
+      }
+
+      a[href]:after {
+        content: none !important;
+      }
+    }
+
+    /* Toast Container */
+    .toast-container {
+      z-index: 1090;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- =========================
+       NAVIGATION BAR
+  ========================= -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-clinic py-2">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <div class="brand-logo-icon">
+          <i class="bi bi-flower1"></i>
+        </div>
+        <div>
+          <span class="fw-bold d-block text-success fs-5 leading-none">Dr. Ranjeet Kumar</span>
+          <small class="text-muted fs-7 leading-none">Naturopathy Clinic • Sirdala</small>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 fs-6">
+          <li class="nav-item"><a class="nav-link" id="nlHome" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlAbout" href="#about">About Doctor</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlServices" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlSymptoms" href="#symptom-checker">Symptom Checker</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlAppointment" href="#appointment">Appointment</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlPrescription" href="#prescription">E-Prescription</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlStore" href="#store">Herbal Store</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlDashboard" href="#dashboard">Patient Portal</a></li>
+          <li class="nav-item"><a class="nav-link" id="nlContact" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <!-- Indian ALL Languages Switcher Selector -->
+          <div class="d-flex align-items-center bg-white border border-success border-opacity-50 rounded-pill px-2 py-1 shadow-sm me-1">
+            <i class="bi bi-translate text-success fs-6 ms-1 me-1"></i>
+            <select class="form-select form-select-sm border-0 bg-transparent fw-bold text-success shadow-none pe-3 py-0" id="indianLangSelector" onchange="switchLanguage(this.value)" style="cursor: pointer; font-size: 0.85rem; outline: none;" aria-label="Select Indian Language">
+              <option value="hi">🇮🇳 हिंदी (Hindi)</option>
+              <option value="en">🇬🇧 English</option>
+              <option value="bn">🇮🇳 বাংলা (Bengali)</option>
+              <option value="mr">🇮🇳 मराठी (Marathi)</option>
+              <option value="te">🇮🇳 తెలుగు (Telugu)</option>
+              <option value="ta">🇮🇳 தமிழ் (Tamil)</option>
+              <option value="gu">🇮🇳 ગુજરાતી (Gujarati)</option>
+              <option value="kn">🇮🇳 ಕನ್ನಡ (Kannada)</option>
+              <option value="ml">🇮🇳 മലയാളം (Malayalam)</option>
+              <option value="pa">🇮🇳 ਪੰਜਾਬੀ (Punjabi)</option>
+              <option value="or">🇮🇳 ଓଡ଼ିଆ (Odia)</option>
+              <option value="bho">🇮🇳 भोजपुरी (Bhojpuri)</option>
+              <option value="mai">🇮🇳 मैथिली (Maithili)</option>
+              <option value="ur">🇮🇳 اردو (Urdu)</option>
+            </select>
+          </div>
+
+          <button class="btn btn-outline-success btn-sm rounded-pill px-3 shadow-sm d-flex align-items-center gap-1" id="adminNavBtn" onclick="openAdminPanel()">
+            <i class="bi bi-shield-lock-fill"></i> <span id="adminNavBtnText">Admin Login</span>
+          </button>
+
+          <!-- Cart Icon -->
+          <button class="btn btn-light position-relative rounded-circle p-2" data-bs-toggle="modal" data-bs-target="#cartModal">
+            <i class="bi bi-cart3 fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartBadge">0</span>
+          </button>
+
+          <a href="#appointment" class="btn btn-naturopathy d-none d-sm-inline-block" id="navBookBtn">
+            <i class="bi bi-calendar-check me-1"></i> <span id="navBookText">Book Fee ₹300</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================
+       HERO SECTION
+  ========================= -->
+  <section id="home" class="hero-wrapper">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7">
+          <span class="hero-badge mb-3"><i class="bi bi-patch-check-fill me-1"></i> BNYS / Naturopathy Expert</span>
+          <h1 class="display-4 fw-bold text-dark mb-2">Dr. Ranjeet Kumar Naturopathy Clinic</h1>
+          <p class="fs-4 text-success fw-semibold mb-3">Natural Healing • Healthy Lifestyle • Better Living</p>
+          <p class="lead text-secondary mb-4">
+            सिरदला, नवादा (बिहार) में प्राकृतिक चिकित्सा, आहार सुधार, योग एवं वैलनेस परामर्श द्वारा शरीर के स्वाभाविक स्वास्थ्य को पुनर्जीवित करें। बिना दुष्प्रभाव के समग्र जीवनशैली समाधान।
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#appointment" class="btn btn-naturopathy btn-lg">
+              <i class="bi bi-calendar-plus me-2"></i> Book Appointment – ₹300
+            </a>
+            <a href="#symptom-checker" class="btn btn-outline-naturopathy btn-lg">
+              <i class="bi bi-activity me-2"></i> Check Your Symptoms
+            </a>
+            <a href="https://wa.me/918235125422?text=नमस्कार%20Dr.%20Ranjeet%20Kumar%20Naturopathy%20Clinic,%20मुझे%20परामर्श%20चाहिए।" target="_blank" class="btn btn-success rounded-pill px-4 btn-lg" style="background-color: #25d366; border: none;">
+              <i class="bi bi-whatsapp me-2"></i> Chat on WhatsApp
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center gap-4 text-muted fs-7">
+            <div><i class="bi bi-geo-alt-fill text-danger me-1"></i> Sirdala, Nawada, Bihar</div>
+            <div><i class="bi bi-telephone-fill text-primary me-1"></i> Helpline: 8235125422</div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <div class="position-relative d-inline-block">
+            <div class="bg-white p-4 hero-card-img text-center">
+              <div class="rounded-circle bg-light d-inline-flex align-items-center justify-content-center mb-3" style="width: 140px; height: 140px; border: 4px solid var(--primary-mint);">
+                <i class="bi bi-person-fill-check text-success display-1"></i>
+              </div>
+              <h3 class="fw-bold text-dark mb-1">Dr. Ranjeet Kumar</h3>
+              <p class="badge bg-success mb-2 fs-6">BNYS Naturopathy Specialist</p>
+              <p class="text-muted small mb-3">10+ Years Dedicated Experience in Lifestyle & Detox Care</p>
+              
+              <div class="p-3 bg-light rounded-3 text-start mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="small fw-semibold text-secondary">Consultation Fee:</span>
+                  <span class="fw-bold text-success fs-5">₹300</span>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span class="small fw-semibold text-secondary">Clinic Location:</span>
+                  <span class="small fw-bold">Sirdala, Nawada (Bihar)</span>
+                </div>
+              </div>
+              <small class="text-success fw-bold"><i class="bi bi-check-circle-fill me-1"></i> Verified Healthcare Facility</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       TRUST & QUICK INFO BAR
+  ========================= -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-3 col-6">
+          <div class="trust-card">
+            <div class="trust-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+            <h6 class="fw-bold mb-1">Experienced Care</h6>
+            <p class="small text-muted mb-0">BNYS Certified Naturopathy Expertise</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="trust-card">
+            <div class="trust-icon"><i class="bi bi-droplet-half"></i></div>
+            <h6 class="fw-bold mb-1">Personalized Guidance</h6>
+            <p class="small text-muted mb-0">Customized Diet & Detox Plans</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="trust-card">
+            <div class="trust-icon"><i class="bi bi-tree-fill"></i></div>
+            <h6 class="fw-bold mb-1">Lifestyle Approach</h6>
+            <p class="small text-muted mb-0">100% Natural, Root-Cause Focus</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="trust-card">
+            <div class="trust-icon"><i class="bi bi-phone-vibrate-fill"></i></div>
+            <h6 class="fw-bold mb-1">Easy Online Booking</h6>
+            <p class="small text-muted mb-0">Instant E-Prescription & Tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert bg-white border border-success border-opacity-25 shadow-sm rounded-4 mt-4 p-3 d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-3">
+          <div class="bg-success text-white rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 42px; height: 42px;">
+            <i class="bi bi-headset fs-5"></i>
+          </div>
+          <div>
+            <h6 class="mb-0 fw-bold">Need Immediate Help or Query?</h6>
+            <small class="text-muted">Call our 24x7 Clinic Helpline or WhatsApp us directly.</small>
+          </div>
+        </div>
+        <div class="d-flex gap-2">
+          <a href="tel:8235125422" class="btn btn-outline-success btn-sm rounded-pill fw-bold"><i class="bi bi-telephone me-1"></i> Call 8235125422</a>
+          <a href="https://wa.me/918235125422" class="btn btn-success btn-sm rounded-pill fw-bold"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT DOCTOR SECTION
+  ========================= -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Meet Dr. Ranjeet Kumar</h2>
+        <p class="text-muted">Naturopathy & Lifestyle Wellness Specialist</p>
+      </div>
+
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-5 text-center">
+          <div class="p-4 rounded-4 shadow-sm border bg-light">
+            <div class="mx-auto rounded-circle bg-white d-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 180px; height: 180px; border: 4px solid var(--primary-leaf);">
+              <i class="bi bi-person-badge text-success display-1"></i>
+            </div>
+            <h4 class="fw-bold mb-1">Dr. Ranjeet Kumar</h4>
+            <p class="text-success fw-bold mb-2">BNYS (Bachelor of Naturopathy & Yogic Sciences)</p>
+            <hr class="my-3">
+            <div class="text-start small space-y-2">
+              <p class="mb-1"><i class="bi bi-geo-alt text-danger me-2"></i><strong>Location:</strong> Sirdala, Nawada, Bihar</p>
+              <p class="mb-1"><i class="bi bi-telephone text-primary me-2"></i><strong>Helpline:</strong> 8235125422</p>
+              <p class="mb-0"><i class="bi bi-currency-rupee text-success me-2"></i><strong>Consultation Fee:</strong> ₹300</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <h3 class="fw-bold mb-3 text-success">प्राकृतिक चिकित्सा से स्वस्थ एवं दीर्घायु जीवन</h3>
+          <p class="text-secondary leading-relaxed mb-3">
+            नेचुरोपैथी (प्राकृतिक चिकित्सा) बिना किसी हानिकारक रसायनों या साइड-इफेक्ट्स के शरीर की प्राकृतिक रोग प्रतिरोधक क्षमता को जागृत करने का एक संपूर्ण विज्ञान है। डॉ. रंजीत कुमार जी सिरदला, नवादा में रोगियों को पाचन विकार, कब्ज, तनाव, मोटापा, जोड़ों के दर्द और जीवनशैली से जुड़ी समस्याओं से प्राकृतिक रूप से मुक्ति पाने में सहायता कर रहे हैं।
+          </p>
+          <p class="text-secondary leading-relaxed mb-4">
+            हमारा उद्देश्य केवल लक्षणों को दबाना नहीं, बल्कि बीमारी के मूल कारण (Root Cause) को समझकर प्राकृतिक आहार, योग, प्राकृतिक चिकित्सा एवं डिटॉक्स पद्धतियों द्वारा पूर्ण स्वास्थ्य बहाल करना है।
+          </p>
+
+          <div class="row g-3 mb-4">
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-light border">
+                <i class="bi bi-check2-circle text-success fs-4 me-2"></i>
+                <span class="fw-bold">Root Cause Focus</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-light border">
+                <i class="bi bi-check2-circle text-success fs-4 me-2"></i>
+                <span class="fw-bold">Zero Harmful Chemicals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medical Disclaimer Card -->
+          <div class="alert alert-warning border-start border-4 border-warning mb-0" role="alert">
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <i class="bi bi-exclamation-triangle-fill text-warning fs-5"></i>
+              <strong class="text-dark">महत्वपूर्ण चिकित्सा सूचना (Medical Disclaimer)</strong>
+            </div>
+            <p class="small text-dark mb-0">
+              यह वेबसाइट सामान्य स्वास्थ्य एवं wellness जानकारी के लिए है। किसी भी गंभीर, आपातकालीन या लगातार बनी रहने वाली स्वास्थ्य समस्या में qualified medical professional से प्रत्यक्ष सलाह लें।
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       SERVICES SECTION
+  ========================= -->
+  <section id="services" class="py-5" style="background-color: #f4f8f5;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Our Naturopathy Services</h2>
+        <p class="text-muted">प्राकृतिक चिकित्सा एवं जीवनशैली सुधार सेवाएं</p>
+      </div>
+
+      <div class="row g-4" id="servicesGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       AI SYMPTOM CHECKER
+  ========================= -->
+  <section id="symptom-checker" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-success-subtle text-success fw-bold px-3 py-2 rounded-pill mb-2">Smart Health Tool</span>
+        <h2 class="fw-bold section-title text-dark">Smart Wellness Symptom Checker</h2>
+        <p class="text-muted">अपनी समस्या चुनें और शुरुआती wellness guidance प्राप्त करें।</p>
+      </div>
+
+      <div class="card border-0 shadow-sm rounded-4 p-4 max-w-3xl mx-auto border-top border-4 border-success">
+        <form id="symptomForm">
+          <div class="mb-4">
+            <label class="form-label fw-bold">1. अपनी प्रमुख समस्याएँ चुनें (Select Symptoms):</label>
+            <div class="d-flex flex-wrap gap-2" id="symptomsList">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <div class="row g-3 mb-4">
+            <div class="col-md-4">
+              <label class="form-label fw-bold">आयु (Age):</label>
+              <input type="number" class="form-control" id="symptomAge" placeholder="उदा. 35" min="1" max="100" required>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label fw-bold">लिंग (Gender):</label>
+              <select class="form-select" id="symptomGender" required>
+                <option value="Male">पुरुष (Male)</option>
+                <option value="Female">महिला (Female)</option>
+                <option value="Other">अन्य (Other)</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label fw-bold">समस्या की अवधि (Duration):</label>
+              <select class="form-select" id="symptomDuration" required>
+                <option value="Few days">कुछ दिन (Few days)</option>
+                <option value="1-4 weeks">1-4 हफ्ते (1-4 weeks)</option>
+                <option value="Months">कई महीने (Months/Chronic)</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-naturopathy w-100 py-3 fs-6">
+            <i class="bi bi-cpu-fill me-2"></i> Get Smart Wellness Guidance
+          </button>
+        </form>
+
+        <!-- Symptom Results Box -->
+        <div id="symptomResultBox" class="mt-4 p-4 rounded-4 bg-light d-none border border-success">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       APPOINTMENT BOOKING SECTION
+  ========================= -->
+  <section id="appointment" class="py-5" style="background-color: #eef6f0;">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-5">
+          <span class="badge bg-success text-white mb-2">Book Consultation</span>
+          <h2 class="fw-bold display-6 mb-3">ऑनलाइन डॉक्टर अपॉइंटमेंट बुक करें</h2>
+          <p class="text-secondary mb-4">
+            डॉ. रंजीत कुमार जी से क्लिनिक या ऑनलाइन परामर्श प्राप्त करें। फॉर्म भरें और अपनी सुविधानुसार समय चुनें।
+          </p>
+
+          <div class="bg-white p-4 rounded-4 shadow-sm border mb-3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="fw-bold">Consultation Fee:</span>
+              <span class="fs-4 fw-bold text-success">₹300</span>
+            </div>
+            <hr class="my-2">
+            <small class="text-muted"><i class="bi bi-info-circle me-1"></i> फीस में विस्तृत वैलनेस मूल्यांकन एवं E-Prescription शामिल है।</small>
+          </div>
+
+          <div class="d-flex align-items-center gap-3 text-muted">
+            <i class="bi bi-shield-check text-success fs-2"></i>
+            <div>
+              <strong class="text-dark d-block">100% Safe & Secure Booking</strong>
+              <small>आपकी जानकारी पूरी तरह से सुरक्षित रखी जाती है।</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="bg-white p-4 p-md-5 rounded-4 shadow border">
+            <h4 class="fw-bold mb-4 text-success"><i class="bi bi-calendar-event me-2"></i> Patient Booking Form</h4>
+            
+            <form id="appointmentForm" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">मरीज़ का पूरा नाम (Full Name) *</label>
+                  <input type="text" class="form-control" id="patientName" placeholder="उदा. राहुल कुमार" required>
+                  <div class="invalid-feedback">कृपया अपना नाम दर्ज करें।</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">मोबाइल नंबर (Mobile Number) *</label>
+                  <input type="tel" class="form-control" id="patientMobile" pattern="[6-9][0-9]{9}" placeholder="10-digit Mobile Number" required>
+                  <div class="invalid-feedback">कृपया वैध 10-अंकीय भारतीय मोबाइल नंबर दर्ज करें।</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">आयु (Age) *</label>
+                  <input type="number" class="form-control" id="patientAge" min="1" max="110" placeholder="उदा. 30" required>
+                  <div class="invalid-feedback">कृपया वैध आयु दर्ज करें।</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">लिंग (Gender) *</label>
+                  <select class="form-select" id="patientGender" required>
+                    <option value="">-- चुनें --</option>
+                    <option value="Male">पुरुष (Male)</option>
+                    <option value="Female">महिला (Female)</option>
+                    <option value="Other">अन्य (Other)</option>
+                  </select>
+                  <div class="invalid-feedback">कृपया लिंग का चयन करें।</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">पसंदीदा तारीख (Preferred Date) *</label>
+                  <input type="date" class="form-control" id="appointmentDate" required>
+                  <div class="invalid-feedback">कृपया तिथि चुनें (बीती तिथि अमान्य है)।</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">समय (Preferred Time Slot) *</label>
+                  <select class="form-select" id="appointmentTime" required>
+                    <option value="">-- समय चुनें --</option>
+                    <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                    <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+                    <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
+                    <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
+                    <option value="06:00 PM - 07:00 PM">06:00 PM - 07:00 PM</option>
+                  </select>
+                  <div class="invalid-feedback">कृपया समय चुनें।</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label fw-semibold">स्वास्थ्य समस्या / संदेश (Reason for Consultation)</label>
+                  <textarea class="form-control" id="patientProblem" rows="3" placeholder="अपनी समस्या संक्षेप में बताएं (उदा. गैस, कब्ज, वजन प्रबंधन)..."></textarea>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-naturopathy w-100 py-3 fs-5">
+                    Continue to Payment (₹300) <i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       E-PRESCRIPTION SECTION
+  ========================= -->
+  <section id="prescription" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Digital E-Prescription Viewer</h2>
+        <p class="text-muted">अपनी Appointment ID दर्ज करके अपना डिजिटल प्रिस्क्रिप्शन देखें व डाउनलोड करें</p>
+      </div>
+
+      <div class="max-w-2xl mx-auto">
+        <div class="input-group mb-4 shadow-sm rounded-pill overflow-hidden border">
+          <input type="text" id="searchPrescriptionInput" class="form-control border-0 px-4 py-3" placeholder="Enter Appointment ID (e.g. DRK-842910 or Mobile Number)">
+          <button class="btn btn-naturopathy px-4" onclick="searchPrescription()"><i class="bi bi-search me-1"></i> Search</button>
+        </div>
+
+        <div id="prescriptionDisplayBox" class="p-4 rounded-4 bg-light border">
+          <div class="text-center text-muted py-4">
+            <i class="bi bi-file-earmark-medical display-3 text-secondary mb-2 d-block"></i>
+            <p>कृपया प्रिस्क्रिप्शन देखने के लिए ऊपर अपनी Appointment ID (उदा. DRK-842910) दर्ज करें।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       HERBAL STORE SECTION
+  ========================= -->
+  <section id="store" class="py-5" style="background-color: #f7faf8;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-success-subtle text-success fw-bold px-3 py-2 rounded-pill mb-2">Natural Wellness Products</span>
+        <h2 class="fw-bold section-title text-dark">Herbal Wellness Store</h2>
+        <p class="text-muted">100% प्राकृतिक एवं हर्बल स्वास्थ्य देखभाल उत्पाद</p>
+      </div>
+
+      <div class="row g-4" id="productsGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       PATIENT DASHBOARD SECTION
+  ========================= -->
+  <section id="dashboard" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Patient Dashboard Portal</h2>
+        <p class="text-muted">आपके सभी अपॉइंटमेंट, प्रिस्क्रिप्शन और ऑर्डर की जानकारी एक ही जगह</p>
+      </div>
+
+      <div class="card border-0 shadow-sm rounded-4 overflow-hidden border">
+        <div class="card-header bg-success text-white p-3">
+          <ul class="nav nav-tabs card-header-tabs border-0" id="dashTabs" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link text-white active fw-bold" id="tab-appts" data-bs-toggle="tab" data-bs-target="#dash-appts"><i class="bi bi-calendar-check me-1"></i> My Appointments</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link text-white fw-bold" id="tab-presc" data-bs-toggle="tab" data-bs-target="#dash-presc"><i class="bi bi-file-earmark-text me-1"></i> My Prescriptions</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link text-white fw-bold" id="tab-orders" data-bs-toggle="tab" data-bs-target="#dash-orders"><i class="bi bi-bag-check me-1"></i> My Store Orders</button>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body p-4">
+          <div class="tab-content">
+            <!-- Appointments Tab -->
+            <div class="tab-pane fade show active" id="dash-appts">
+              <div id="dashboardApptsList"></div>
+            </div>
+            <!-- Prescriptions Tab -->
+            <div class="tab-pane fade" id="dash-presc">
+              <div id="dashboardPrescList"></div>
+            </div>
+            <!-- Orders Tab -->
+            <div class="tab-pane fade" id="dash-orders">
+              <div id="dashboardOrdersList"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT SECTION
+  ========================= -->
+  <section id="contact" class="py-5" style="background-color: #f4f8f5;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Contact & Location</h2>
+        <p class="text-muted">डॉ. रंजीत कुमार नेचुरोपैथी क्लिनिक, सिरदला (नवादा)</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="bg-white p-4 rounded-4 shadow-sm border h-100">
+            <h4 class="fw-bold text-success mb-4"><i class="bi bi-geo-alt-fill me-2"></i> Clinic Details</h4>
+            
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="bg-success-subtle text-success p-3 rounded-circle fs-5"><i class="bi bi-building"></i></div>
+              <div>
+                <strong class="d-block text-dark">Clinic Address</strong>
+                <p class="text-muted mb-0">Sirdala, Nawada District, Bihar - 805125</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="bg-success-subtle text-success p-3 rounded-circle fs-5"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <strong class="d-block text-dark">Helpline Number</strong>
+                <p class="text-muted mb-0">8235125422</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="bg-success-subtle text-success p-3 rounded-circle fs-5"><i class="bi bi-whatsapp"></i></div>
+              <div>
+                <strong class="d-block text-dark">WhatsApp Support</strong>
+                <p class="text-muted mb-0">8235125422</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="bg-primary-subtle text-primary p-3 rounded-circle fs-5"><i class="bi bi-telegram"></i></div>
+              <div>
+                <strong class="d-block text-dark">Telegram Channel</strong>
+                <p class="mb-0"><a href="https://t.me/Ranjeetkoldihanawada" target="_blank" class="text-primary text-decoration-none fw-semibold">t.me/Ranjeetkoldihanawada</a></p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="bg-success-subtle text-success p-3 rounded-circle fs-5"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <strong class="d-block text-dark">Clinic Hours</strong>
+                <p class="text-muted mb-0">Mon - Sat: 09:00 AM - 07:00 PM<br>Sunday: By Appointment Only</p>
+              </div>
+            </div>
+
+            <hr>
+            <div class="d-flex gap-2 flex-wrap">
+              <a href="tel:8235125422" class="btn btn-naturopathy flex-grow-1"><i class="bi bi-telephone me-1"></i> Call Clinic</a>
+              <a href="https://wa.me/918235125422" class="btn btn-success flex-grow-1"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>
+              <a href="https://t.me/Ranjeetkoldihanawada" target="_blank" class="btn btn-primary flex-grow-1" style="background-color: #229ed9; border-color: #229ed9;"><i class="bi bi-telegram me-1"></i> Telegram</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="bg-white p-4 rounded-4 shadow-sm border h-100">
+            <h4 class="fw-bold text-success mb-3"><i class="bi bi-envelope-paper me-2"></i> Send us a Query</h4>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Name</label>
+                  <input type="text" class="form-control" required placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Mobile</label>
+                  <input type="tel" class="form-control" required placeholder="10-digit Phone">
+                </div>
+                <div class="col-12">
+                  <label class="form-label fw-semibold">Message</label>
+                  <textarea class="form-control" rows="4" required placeholder="Type your query here..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-naturopathy w-100 py-2">Submit Query</button>
+                </div>
+              </div>
+            </form>
+
+            <div class="mt-4 p-3 rounded-3 bg-light text-center border">
+              <small class="text-muted"><i class="bi bi-map-fill text-danger me-1"></i> Location Map: Sirdala, Nawada (Bihar)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       FAQ SECTION
+  ========================= -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title text-dark">Frequently Asked Questions</h2>
+        <p class="text-muted">सामान्यतः पूछे जाने वाले प्रश्न एवं उत्तर</p>
+      </div>
+
+      <div class="accordion max-w-3xl mx-auto" id="faqAccordion">
+        <div class="accordion-item border rounded-3 mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              Consultation Fee कितनी है?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              डॉ. रंजीत कुमार जी के साथ ऑनलाइन एवं क्लिनिक परामर्श शुल्क ₹300 है, जिसमें स्वास्थ्य स्थिति का पूर्ण विश्लेषण एवं डिजिटल प्रिस्क्रिप्शन शामिल है।
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border rounded-3 mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+              Appointment कैसे बुक करें?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              आप वेबसाइट पर मौजूद "Book Appointment" फॉर्म भरकर ₹300 का भुगतान कर तुरंत Appointment ID (उदा. DRK-XXXXXX) प्राप्त कर सकते हैं।
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border rounded-3 mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+              क्या Online Consultation उपलब्ध है?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              हाँ, आप कॉल अथवा WhatsApp (8235125422) के माध्यम से ऑनलाइन परामर्श प्राप्त कर सकते हैं।
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border rounded-3 mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+              E-Prescription कैसे मिलेगी?
+            </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              परामर्श के पश्चात आप वेबसाइट के "E-Prescription" सेक्शन में अपनी Appointment ID डालकर प्रिस्क्रिप्शन देख व डाउनलोड/प्रिंट कर सकते हैं।
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border rounded-3 mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+              Herbal Products कैसे आर्डर करें?
+            </button>
+          </h2>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              "Herbal Store" सेक्शन में जाकर अपनी पसंद के प्राकृतिक उत्पाद कार्ट में जोड़ें और आसानी से ऑर्डर सबमिट करें।
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-icon">
+              <i class="bi bi-flower1"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-0 text-white">Dr. Ranjeet Kumar</h5>
+              <small class="text-success">Naturopathy Clinic • Sirdala</small>
+            </div>
+          </div>
+          <p class="text-secondary small leading-relaxed">
+            प्राकृतिक चिकित्सा एवं जीवनशैली सुधार द्वारा संपूर्ण स्वास्थ्य लाभ। बिना केमिकल एवं बिना किसी साइड-इफेक्ट के जड़ से इलाज।
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-6">
+          <h6 class="fw-bold text-success mb-3">Quick Links</h6>
+          <ul class="list-unstyled space-y-2 small">
+            <li><a href="#home" class="text-secondary text-decoration-none">Home</a></li>
+            <li><a href="#about" class="text-secondary text-decoration-none">About Doctor</a></li>
+            <li><a href="#services" class="text-secondary text-decoration-none">Services</a></li>
+            <li><a href="#appointment" class="text-secondary text-decoration-none">Book Appointment</a></li>
+            <li><a href="#store" class="text-secondary text-decoration-none">Herbal Store</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <h6 class="fw-bold text-success mb-3">Services</h6>
+          <ul class="list-unstyled space-y-2 small text-secondary">
+            <li>Naturopathy Consultation</li>
+            <li>Diet & Lifestyle Guidance</li>
+            <li>Digestive & Detox Care</li>
+            <li>Stress Management</li>
+            <li>Weight Management</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h6 class="fw-bold text-success mb-3">Helpline & Social</h6>
+          <p class="small text-secondary mb-1"><i class="bi bi-geo-alt me-1"></i> Sirdala, Nawada, Bihar</p>
+          <p class="small text-secondary mb-1"><i class="bi bi-telephone me-1"></i> 8235125422</p>
+          <p class="small text-secondary mb-1"><i class="bi bi-whatsapp me-1 text-success"></i> WhatsApp: 8235125422</p>
+          <p class="small text-secondary mb-0"><i class="bi bi-telegram me-1 text-info"></i> Telegram: <a href="https://t.me/Ranjeetkoldihanawada" target="_blank" class="text-info text-decoration-none fw-semibold">t.me/Ranjeetkoldihanawada</a></p>
+        </div>
+      </div>
+
+      <hr class="border-secondary opacity-25">
+
+      <div class="text-center small text-secondary">
+        <p class="mb-1">© 2026 Dr. Ranjeet Kumar Naturopathy Clinic. All Rights Reserved.</p>
+        <p class="mb-0 text-muted fs-8">Medical Disclaimer: This website provides wellness information and does not replace emergency medical treatment.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================
+       FLOATING WHATSAPP, TELEGRAM & MOBILE BOTTOM BAR
+  ========================= -->
+  <a href="https://t.me/Ranjeetkoldihanawada" target="_blank" class="telegram-float" title="Join Telegram Channel">
+    <i class="bi bi-telegram"></i>
+  </a>
+
+  <a href="https://wa.me/918235125422?text=नमस्कार%20Dr.%20Ranjeet%20Kumar%20Naturopathy%20Clinic,%20मुझे%20सहायता%20चाहिए।" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <div class="mobile-bottom-bar d-lg-none">
+    <a href="tel:8235125422" class="btn btn-outline-success btn-sm rounded-pill fw-bold">
+      <i class="bi bi-telephone-fill me-1"></i> Call
+    </a>
+    <a href="https://wa.me/918235125422" class="btn btn-success btn-sm rounded-pill fw-bold">
+      <i class="bi bi-whatsapp me-1"></i> WA
+    </a>
+    <a href="https://t.me/Ranjeetkoldihanawada" target="_blank" class="btn btn-primary btn-sm rounded-pill fw-bold" style="background-color: #229ed9; border-color: #229ed9;">
+      <i class="bi bi-telegram me-1"></i> Telegram
+    </a>
+    <a href="#appointment" class="btn btn-naturopathy btn-sm rounded-pill fw-bold">
+      <i class="bi bi-calendar-check me-1"></i> Book ₹300
+    </a>
+  </div>
+
+  <!-- =========================
+       MODALS (PAYMENT, CART, CONFIRMATION)
+  ========================= -->
+  <!-- Payment Modal -->
+  <div class="modal fade" id="paymentModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title fw-bold"><i class="bi bi-qr-code-scan me-2"></i> Payment Verification (₹300)</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4 text-center">
+          <p class="text-muted mb-2">Dr. Ranjeet Kumar Naturopathy Clinic Consultation Fee</p>
+          <h2 class="fw-bold text-success mb-3">₹300</h2>
+
+          <div class="p-3 bg-light rounded-3 d-inline-block mb-3 border">
+            <!-- Simulated QR Code placeholder -->
+            <div class="bg-white p-3 border rounded d-inline-block shadow-sm mb-2">
+              <i class="bi bi-qr-code display-1 text-dark"></i>
+            </div>
+            <p class="small fw-bold text-dark mb-0">UPI ID: 8235125422@upi</p>
+            <small class="text-muted">Scan using PhonePe, Google Pay, Paytm, BHIM</small>
+          </div>
+
+          <!-- TODO: Integrate Razorpay / Cashfree / official payment gateway API here -->
+
+          <div class="text-start mb-3">
+            <label class="form-label small fw-bold">Payment Reference / UTR Number (Optional for Demo):</label>
+            <input type="text" id="paymentRefInput" class="form-control" placeholder="Enter 12-digit UTR/Ref No.">
+          </div>
+
+          <button class="btn btn-naturopathy w-100 py-2 fs-6" onclick="completePaymentDemo()">
+            <i class="bi bi-check-circle me-1"></i> Confirm Payment & Book Appointment
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Appointment Confirmation Modal -->
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-body p-4 text-center">
+          <div class="text-success display-2 mb-2"><i class="bi bi-check-circle-fill"></i></div>
+          <h3 class="fw-bold text-success mb-2">Appointment Booked!</h3>
+          <p class="text-muted mb-3">आपकी अपॉइंटमेंट सफलतापूर्वक दर्ज हो गई है।</p>
+
+          <div class="bg-light p-3 rounded-3 text-start mb-3 border" id="confirmationCardBody">
+            <!-- Rendered by JS -->
+          </div>
+
+          <div class="d-grid gap-2">
+            <a id="confirmWhatsAppBtn" href="#" target="_blank" class="btn btn-success fw-bold py-2">
+              <i class="bi bi-whatsapp me-1"></i> Send Confirmation to Clinic WhatsApp
+            </a>
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart Modal -->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title fw-bold"><i class="bi bi-cart-check me-2"></i> Your Shopping Cart</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div id="cartItemsList"></div>
+          
+          <div class="border-top pt-3 mt-3 d-flex justify-content-between align-items-center">
+            <h5 class="fw-bold mb-0">Total Amount:</h5>
+            <h4 class="fw-bold text-success mb-0" id="cartTotalText">₹0</h4>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Continue Shopping</button>
+          <button type="button" class="btn btn-naturopathy" id="checkoutBtn" onclick="openCheckoutModal()">Proceed to Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Checkout Modal -->
+  <div class="modal fade" id="checkoutModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title fw-bold"><i class="bi bi-truck me-2"></i> Delivery Address Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <form id="checkoutForm">
+            <div class="mb-3">
+              <label class="form-label fw-bold">Full Name *</label>
+              <input type="text" id="orderName" class="form-control" required placeholder="Enter name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold">Mobile Number *</label>
+              <input type="tel" id="orderMobile" class="form-control" required placeholder="10-digit mobile">
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold">Delivery Address *</label>
+              <textarea id="orderAddress" class="form-control" rows="2" required placeholder="House No, Village/Town, Sirdala, Nawada..."></textarea>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-6">
+                <label class="form-label fw-bold">City/District</label>
+                <input type="text" id="orderCity" class="form-control" value="Nawada" required>
+              </div>
+              <div class="col-6">
+                <label class="form-label fw-bold">PIN Code</label>
+                <input type="text" id="orderPin" class="form-control" value="805125" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-naturopathy w-100 py-2 fs-6">
+              Place Order (Cash on Delivery / UPI)
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================
+       ADMIN LOGIN MODAL
+  ========================= -->
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+        <div class="modal-header bg-success text-white py-3">
+          <h5 class="modal-title fw-bold d-flex align-items-center gap-2">
+            <i class="bi bi-shield-lock-fill fs-4"></i> Doctor / Admin Login
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="text-secondary small mb-3">
+            Dr. Ranjeet Kumar Naturopathy Clinic के एडमिन पैनल में प्रवेश करने के लिए सुरक्षा PIN दर्ज करें।
+          </p>
+
+          <form id="adminLoginForm" onsubmit="handleAdminLogin(event)">
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Admin Password / Doctor Security PIN *</label>
+              <div class="input-group">
+                <span class="input-group-text bg-light text-success"><i class="bi bi-key-fill"></i></span>
+                <input type="password" id="adminPasswordInput" class="form-control" required placeholder="Enter PIN (e.g., 842910 or admin123)">
+              </div>
+            </div>
+
+            <div class="p-2 mb-3 bg-success-subtle border border-success border-opacity-25 rounded-3 text-success-emphasis" style="font-size: 0.8rem;">
+              <i class="bi bi-info-circle-fill me-1"></i> <strong>Default Credentials:</strong> PIN: <code>842910</code> या Password: <code>admin123</code>
+            </div>
+
+            <button type="submit" class="btn btn-naturopathy w-100 py-2 fs-6 fw-bold">
+              <i class="bi bi-box-arrow-in-right me-1"></i> Access Admin Control Panel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================
+       ADMIN CONTROL DASHBOARD MODAL
+  ========================= -->
+  <div class="modal fade" id="adminDashboardModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-4 border-0 shadow-lg">
+        <div class="modal-header bg-dark text-white py-3">
+          <div class="d-flex align-items-center gap-2">
+            <div class="brand-logo-icon bg-success text-white">
+              <i class="bi bi-flower1"></i>
+            </div>
+            <div>
+              <h5 class="modal-title fw-bold text-white mb-0">Clinic Admin Control Panel</h5>
+              <small class="text-success-light" style="font-size: 0.78rem;">
+                Dr. Ranjeet Kumar Naturopathy Clinic • Customer Problem Solution & Medicine Manager
+              </small>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-success px-3 py-2"><i class="bi bi-check-circle-fill me-1"></i> Doctor Authorized</span>
+            <button class="btn btn-outline-light btn-sm rounded-pill" onclick="logoutAdmin()"><i class="bi bi-box-arrow-right me-1"></i> Logout</button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+        </div>
+
+        <div class="modal-body p-0">
+          <!-- ADMIN TABS NAVIGATION -->
+          <div class="bg-light border-bottom px-4 pt-3">
+            <ul class="nav nav-tabs border-bottom-0" id="adminTabs" role="tablist">
+              <li class="nav-item">
+                <button class="nav-link active fw-bold text-dark d-flex align-items-center gap-2" id="tab-admin-support" data-bs-toggle="tab" data-bs-target="#panel-admin-support">
+                  <i class="bi bi-headset text-success fs-5"></i> 
+                  <span>Customer Support & Problems</span>
+                  <span class="badge bg-danger rounded-pill" id="pendingSupportBadge">0</span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link fw-bold text-dark d-flex align-items-center gap-2" id="tab-admin-dava" data-bs-toggle="tab" data-bs-target="#panel-admin-dava">
+                  <i class="bi bi-capsule text-success fs-5"></i>
+                  <span>Dava / Medicine Listing Panel</span>
+                  <span class="badge bg-success rounded-pill" id="totalMedicinesBadge">0</span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link fw-bold text-dark d-flex align-items-center gap-2" id="tab-admin-appts" data-bs-toggle="tab" data-bs-target="#panel-admin-appts">
+                  <i class="bi bi-calendar-check text-success fs-5"></i>
+                  <span>Appointments & Prescriptions</span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link fw-bold text-dark d-flex align-items-center gap-2" id="tab-admin-orders" data-bs-toggle="tab" data-bs-target="#panel-admin-orders">
+                  <i class="bi bi-truck text-success fs-5"></i>
+                  <span>Store Orders</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ADMIN TAB CONTENT PANES -->
+          <div class="tab-content p-4">
+            
+            <!-- PANEL 1: CUSTOMER PROBLEMS & SUPPORT SOLUTIONS -->
+            <div class="tab-pane fade show active" id="panel-admin-support">
+              <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                <div>
+                  <h5 class="fw-bold text-success mb-0"><i class="bi bi-chat-left-dots-fill me-2"></i> Patient Problem Resolution Portal (ग्राहक समस्या निवारण)</h5>
+                  <p class="text-muted small mb-0">मरीज़ों की समस्याएं, सवाल और शिकायतें देखें एवं सीधे समाधान भेजें।</p>
+                </div>
+                <div class="btn-group btn-group-sm" role="group">
+                  <button type="button" class="btn btn-outline-secondary active" onclick="filterSupportTickets('all', this)">All Tickets</button>
+                  <button type="button" class="btn btn-outline-warning" onclick="filterSupportTickets('Pending', this)">Pending</button>
+                  <button type="button" class="btn btn-outline-info" onclick="filterSupportTickets('In Progress', this)">In Progress</button>
+                  <button type="button" class="btn btn-outline-success" onclick="filterSupportTickets('Resolved', this)">Resolved</button>
+                </div>
+              </div>
+
+              <div id="adminSupportList">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+
+            <!-- PANEL 2: DAVA / MEDICINE LISTING & PRICE MANAGEMENT -->
+            <div class="tab-pane fade" id="panel-admin-dava">
+              <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                <div>
+                  <h5 class="fw-bold text-success mb-0"><i class="bi bi-bag-plus-fill me-2"></i> Medicine & Herbal Product Listing (दवा लिस्टिंग एवं मूल्य)</h5>
+                  <p class="text-muted small mb-0">ऑनलाइन हर्बल स्टोर की दवाइयाँ जोड़ें, विवरण बदलें, रेट (मूल्य) अपडेट करें या स्टॉक बंद करें।</p>
+                </div>
+                <button class="btn btn-naturopathy btn-sm rounded-pill shadow-sm px-3" onclick="openAddMedicineModal()">
+                  <i class="bi bi-plus-circle-fill me-1"></i> + Add New Medicine (नयी दवा जोड़ें)
+                </button>
+              </div>
+
+              <div class="table-responsive bg-white rounded-3 border shadow-2xs">
+                <table class="table table-hover align-middle mb-0">
+                  <thead class="table-light">
+                    <tr>
+                      <th style="width: 60px;">ID</th>
+                      <th>Dava / Medicine Name (दवा का नाम)</th>
+                      <th>Category / Description</th>
+                      <th>Price (मूल्य ₹)</th>
+                      <th>Status (स्टॉक स्थिति)</th>
+                      <th class="text-end">Actions (कार्रवाई)</th>
+                    </tr>
+                  </thead>
+                  <tbody id="adminProductsTableBody">
+                    <!-- Rendered dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- PANEL 3: APPOINTMENTS & E-PRESCRIPTION ISSUE -->
+            <div class="tab-pane fade" id="panel-admin-appts">
+              
+              <!-- SECTION A: STRUCTURED E-PRESCRIPTION ENTRY FORM -->
+              <div class="card border-0 shadow-sm rounded-4 mb-4 border-top border-4 border-success" id="adminPrescFormCard">
+                <div class="card-header bg-success-subtle text-success-emphasis py-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                  <h6 class="fw-bold mb-0 d-flex align-items-center gap-2">
+                    <i class="bi bi-file-earmark-medical-fill fs-5 text-success"></i> 
+                    <span>Structured E-Prescription Entry Form (डिजिटल पर्चा निर्माण फॉर्म)</span>
+                  </h6>
+                  <button type="button" class="btn btn-sm btn-outline-success rounded-pill" onclick="resetAdminPrescForm()">
+                    <i class="bi bi-arrow-counterclockwise me-1"></i> Clear / New Form
+                  </button>
+                </div>
+                <div class="card-body p-4">
+                  <form id="adminPrescForm" onsubmit="handleSaveAdminPrescription(event)">
+                    <div class="row g-3">
+                      
+                      <!-- Appointment / Rx ID -->
+                      <div class="col-md-4">
+                        <label class="form-label fw-bold text-dark mb-1">Appointment ID / Rx No. *</label>
+                        <div class="input-group">
+                          <input type="text" id="adminPrescId" class="form-control" required placeholder="e.g., DRK-842910">
+                          <button type="button" class="btn btn-outline-secondary" title="Auto-Generate ID" onclick="generateAdminPrescId()">
+                            <i class="bi bi-shuffle"></i>
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- Patient Name -->
+                      <div class="col-md-4">
+                        <label class="form-label fw-bold text-dark mb-1">Patient Name (मरीज का नाम) *</label>
+                        <input type="text" id="adminPrescPatientName" class="form-control" required placeholder="उदा. अमित शर्मा">
+                      </div>
+
+                      <!-- Age & Gender -->
+                      <div class="col-md-2 col-6">
+                        <label class="form-label fw-bold text-dark mb-1">Age (आयु) *</label>
+                        <input type="number" id="adminPrescAge" class="form-control" min="1" max="110" required placeholder="34">
+                      </div>
+
+                      <div class="col-md-2 col-6">
+                        <label class="form-label fw-bold text-dark mb-1">Gender (लिंग) *</label>
+                        <select id="adminPrescGender" class="form-select" required>
+                          <option value="Male">Male (पुरुष)</option>
+                          <option value="Female">Female (महिला)</option>
+                          <option value="Other">Other</option>
+                        </select>
+                      </div>
+
+                      <!-- Issue Date -->
+                      <div class="col-md-4">
+                        <label class="form-label fw-bold text-dark mb-1">Issue Date (तारीख) *</label>
+                        <input type="date" id="adminPrescDate" class="form-control" required>
+                      </div>
+
+                      <!-- Follow Up Advice -->
+                      <div class="col-md-8">
+                        <label class="form-label fw-bold text-dark mb-1">Follow-up Advice (पुनरागम सलाह)</label>
+                        <input type="text" id="adminPrescFollowup" class="form-control" placeholder="उदा. 15 दिन पश्चात पुनः दिखाएं।">
+                      </div>
+
+                      <!-- 1. Clinical Diagnosis & Notes -->
+                      <div class="col-12">
+                        <label class="form-label fw-bold text-success mb-1">
+                          <i class="bi bi-activity me-1"></i> 1. Clinical Diagnosis & Wellness Notes (निदान एवं परामर्श) *
+                        </label>
+                        <textarea id="adminPrescDiagnosis" class="form-control" rows="2" required placeholder="उदा. पाचन असंतुलन, कब्ज एवं एसिडिटी की शिकायत।"></textarea>
+                      </div>
+
+                      <!-- 2. Dietary & Detox Recommendations -->
+                      <div class="col-md-6">
+                        <label class="form-label fw-bold text-success mb-1">
+                          <i class="bi bi-egg-fried me-1"></i> 2. Dietary & Detox Plan (आहार एवं डिटॉक्स सलाह) *
+                        </label>
+                        <textarea id="adminPrescDiet" class="form-control" rows="3" required placeholder="उदा. सुबह गुनगुना पानी पिएं, हरी सब्जियाँ व अंकुरित अनाज लें। तली-भुनी चीजें वर्जित।"></textarea>
+                      </div>
+
+                      <!-- 3. Herbal Supplements & Remedies -->
+                      <div class="col-md-6">
+                        <label class="form-label fw-bold text-success mb-1">
+                          <i class="bi bi-capsule me-1"></i> 3. Herbal Supplements (हर्बल औषधि व प्रयोग) *
+                        </label>
+                        <textarea id="adminPrescHerbal" class="form-control" rows="3" required placeholder="उदा. त्रिफला चूर्ण 1 चम्मच रात में गुनगुने पानी से। पाचन अमृत सिरप 2 चम्मच भोजन के बाद।"></textarea>
+                      </div>
+
+                      <!-- 4. Lifestyle, Yoga & Pranayama Guidance -->
+                      <div class="col-12">
+                        <label class="form-label fw-bold text-success mb-1">
+                          <i class="bi bi-heart-pulse me-1"></i> 4. Lifestyle & Yoga Guidance (दिनचर्या एवं योगाभ्यास) *
+                        </label>
+                        <textarea id="adminPrescLifestyle" class="form-control" rows="2" required placeholder="उदा. 30 मिनट सुबह टहलना, कपालभाति व अनुलोम-विलोम प्राणायाम 15 मिनट।"></textarea>
+                      </div>
+
+                      <div class="col-12 pt-2">
+                        <button type="submit" class="btn btn-naturopathy w-100 py-2 fs-6 fw-bold shadow-sm">
+                          <i class="bi bi-check-circle-fill me-2"></i> Save & Publish E-Prescription (पर्चा सेव करें एवं जारी करें)
+                        </button>
+                      </div>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- SECTION B: APPOINTMENTS LIST MANAGER -->
+              <div class="mb-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h6 class="fw-bold text-dark mb-0"><i class="bi bi-calendar-check text-success me-2"></i> Patient Appointments Manager</h6>
+                  <small class="text-muted">अपॉइंटमेंट से डाटा ऑटो-फिल करने के लिए "Write E-Prescription" पर क्लिक करें</small>
+                </div>
+                <div id="adminApptsList">
+                  <!-- Rendered dynamically -->
+                </div>
+              </div>
+
+              <!-- SECTION C: ISSUED PRESCRIPTIONS HISTORY TABLE -->
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h6 class="fw-bold text-dark mb-0"><i class="bi bi-journal-text text-success me-2"></i> Issued E-Prescriptions History (जारी किए गए डिजिटल पर्चे)</h6>
+                  <span class="badge bg-success" id="issuedPrescBadge">0</span>
+                </div>
+                <div id="adminPrescriptionsHistoryList">
+                  <!-- Rendered dynamically -->
+                </div>
+              </div>
+
+            </div>
+
+            <!-- PANEL 4: STORE ORDERS -->
+            <div class="tab-pane fade" id="panel-admin-orders">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold text-success mb-0"><i class="bi bi-box-seam me-2"></i> Medicine Delivery Orders</h5>
+                <span class="text-muted small">दवा डिलीवरी आर्डर स्थिति अपडेट करें।</span>
+              </div>
+              <div id="adminOrdersList">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================
+       ADD / EDIT MEDICINE MODAL
+  ========================= -->
+  <div class="modal fade" id="medicineModal" tabindex="-1" aria-hidden="true" style="z-index: 1085;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title fw-bold" id="medicineModalTitle"><i class="bi bi-plus-circle me-2"></i> Add New Medicine / Dava</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <form id="medicineForm" onsubmit="handleSaveMedicine(event)">
+            <input type="hidden" id="medId" value="">
+            
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Medicine Name (Hindi) *</label>
+              <input type="text" id="medNameHi" class="form-control" required placeholder="उदा. त्रिफला चूर्ण (100g)">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Medicine Name (English) *</label>
+              <input type="text" id="medNameEn" class="form-control" required placeholder="e.g., Triphala Churna (100g)">
+            </div>
+
+            <div class="row g-2 mb-3">
+              <div class="col-6">
+                <label class="form-label fw-bold text-dark">Price (मूल्य ₹) *</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-light">₹</span>
+                  <input type="number" id="medPrice" class="form-control" min="1" required placeholder="180">
+                </div>
+              </div>
+              <div class="col-6">
+                <label class="form-label fw-bold text-dark">Stock Availability *</label>
+                <select id="medStock" class="form-select" required>
+                  <option value="in_stock">In Stock (उपलब्ध है)</option>
+                  <option value="out_of_stock">Out of Stock (समाप्त)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Description (Hindi) *</label>
+              <input type="text" id="medDescHi" class="form-control" required placeholder="पाचन क्रिया सुधारक व डिटॉक्स हर्बल मिश्रण।">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Description (English) *</label>
+              <input type="text" id="medDescEn" class="form-control" required placeholder="Digestive improver and natural detox formula.">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-dark">Icon Badge</label>
+              <select id="medIcon" class="form-select">
+                <option value="bi-box-seam">📦 Box Seam (Churna / Powder)</option>
+                <option value="bi-droplet-fill">💧 Droplet (Liquid / Oil / Amritdhara)</option>
+                <option value="bi-prescription2">💊 Bottle / Syrup (Digestive Syrup)</option>
+                <option value="bi-cup-hot">☕ Cup (Herbal Tea)</option>
+                <option value="bi-sparkles">✨ Sparkles / Cream / Gel (Aloe Care)</option>
+                <option value="bi-capsule">💊 Capsule / Tablet</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-naturopathy w-100 py-2 fw-bold fs-6">
+              <i class="bi bi-check-lg me-1"></i> Save Medicine Listing
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body fw-semibold" id="toastMessage">
+          Notification
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- =========================
+       JAVASCRIPT APPLICATION LOGIC
+  ========================= -->
+  <script>
+    // --- Multi-Language Application State & Data ---
+    let currentLang = localStorage.getItem('drk_lang') || 'hi';
+
+    const INDIAN_LANGUAGES = {
+      hi: {
+        name: 'हिंदी (Hindi)', flag: '🇮🇳',
+        navBook: 'बुक फीस ₹300',
+        toast: 'भाषा बदलकर 🇮🇳 हिंदी की गई',
+        bookConsult: 'परामर्श बुक करें',
+        addToCart: 'कार्ट में जोड़ें',
+        naturalBadge: '100% प्राकृतिक',
+        navLinks: {
+          nlHome: 'मुख्य पृष्ठ', nlAbout: 'डॉक्टर परिचय', nlServices: 'सेवाएं',
+          nlSymptoms: 'लक्षण जांच', nlAppointment: 'अपॉइंटमेंट', nlPrescription: 'डिजिटल पर्चा',
+          nlStore: 'हर्बल स्टोर', nlDashboard: 'मरीज़ पोर्टल', nlContact: 'संपर्क'
+        }
+      },
+      en: {
+        name: 'English', flag: '🇬🇧',
+        navBook: 'Book Fee ₹300',
+        toast: 'Language changed to 🇬🇧 English',
+        bookConsult: 'Book Consultation',
+        addToCart: 'Add to Cart',
+        naturalBadge: '100% Natural',
+        navLinks: {
+          nlHome: 'Home', nlAbout: 'About Doctor', nlServices: 'Services',
+          nlSymptoms: 'Symptom Checker', nlAppointment: 'Appointment', nlPrescription: 'E-Prescription',
+          nlStore: 'Herbal Store', nlDashboard: 'Patient Portal', nlContact: 'Contact'
+        }
+      },
+      bn: {
+        name: 'বাংলা (Bengali)', flag: '🇮🇳',
+        navBook: 'বুক ফি ₹৩০০',
+        toast: 'ভাষা নির্বাচিত 🇮🇳 বাংলা',
+        bookConsult: 'পরামর্শ বুক করুন',
+        addToCart: 'কার্টে যোগ করুন',
+        naturalBadge: '১০০% প্রাকৃতিক',
+        navLinks: {
+          nlHome: 'হোম', nlAbout: 'ডাক্তার সম্পর্কে', nlServices: 'সেবাসমূহ',
+          nlSymptoms: 'উপসর্গ পরীক্ষা', nlAppointment: 'অ্যাপয়েন্টমেন্ট', nlPrescription: 'ই-প্রেসক্রিপশন',
+          nlStore: 'হার্বাল স্টোর', nlDashboard: 'রোগী পোর্টাল', nlContact: 'যোগাযোগ'
+        }
+      },
+      mr: {
+        name: 'मराठी (Marathi)', flag: '🇮🇳',
+        navBook: 'फीस ₹३०० बुक करा',
+        toast: 'भाषा निवडली 🇮🇳 मराठी',
+        bookConsult: 'सल्ला बुक करा',
+        addToCart: 'कार्टमध्ये जोडा',
+        naturalBadge: '१००% नैसर्गिक',
+        navLinks: {
+          nlHome: 'मुख्यपृष्ठ', nlAbout: 'डॉक्टरांबद्दल', nlServices: 'सेवा',
+          nlSymptoms: 'लक्षणे तपासा', nlAppointment: 'अपॉइंटमेंट', nlPrescription: 'ई-प्रिस्क्रिप्शन',
+          nlStore: 'हर्बल स्टोअर', nlDashboard: 'पेशंट पोर्टल', nlContact: 'संपर्क'
+        }
+      },
+      te: {
+        name: 'తెలుగు (Telugu)', flag: '🇮🇳',
+        navBook: 'ఫీజు ₹300 బుక్ చేయండి',
+        toast: 'భాష ఎంచుకోబడింది 🇮🇳 తెలుగు',
+        bookConsult: 'సలహా బుక్ చేయండి',
+        addToCart: 'కార్ట్‌కి జోడించండి',
+        naturalBadge: '100% సహజమైనది',
+        navLinks: {
+          nlHome: 'హోమ్', nlAbout: 'డాక్టర్ గురించి', nlServices: 'సేవలు',
+          nlSymptoms: 'లక్షణాల తనిఖీ', nlAppointment: 'అపాయింట్మెంట్', nlPrescription: 'ఈ-ప్రిస్క్రిప్షన్',
+          nlStore: 'హెర్బల్ స్టోర్', nlDashboard: 'పేషెంట్ పోర్టల్', nlContact: 'సంప్రదించండి'
+        }
+      },
+      ta: {
+        name: 'தமிழ் (Tamil)', flag: '🇮🇳',
+        navBook: 'கட்டணம் ₹300 பதிவு செய்',
+        toast: 'மொழி மாற்றப்பட்டது 🇮🇳 தமிழ்',
+        bookConsult: 'ஆலோசனை பதிவு செய்',
+        addToCart: 'கார்ட்டில் சேர்',
+        naturalBadge: '100% இயற்கை',
+        navLinks: {
+          nlHome: 'முகப்பு', nlAbout: 'மருத்துவர் பற்றி', nlServices: 'சேவைகள்',
+          nlSymptoms: 'அறிகுறி சோதனை', nlAppointment: 'சந்திப்பு', nlPrescription: 'இ-சீட்டு',
+          nlStore: 'மூலிகை கடை', nlDashboard: 'நோயாளி தளம்', nlContact: 'தொடர்பு'
+        }
+      },
+      gu: {
+        name: 'ગુજરાતી (Gujarati)', flag: '🇮🇳',
+        navBook: 'ફી ₹300 બુક કરો',
+        toast: 'ભાષા પસંદ કરી 🇮🇳 ગુજરાતી',
+        bookConsult: 'સલાહ બુક કરો',
+        addToCart: 'કાર્ટમાં ઉમેરો',
+        naturalBadge: '100% કુદરતી',
+        navLinks: {
+          nlHome: 'હોમ', nlAbout: 'ડૉક્ટર વિશે', nlServices: 'સેવાઓ',
+          nlSymptoms: 'લક્ષણ તપાસ', nlAppointment: 'એપોઇન્ટમેન્ટ', nlPrescription: 'ઈ-પ્રિસ્ક્રિપ્શન',
+          nlStore: 'હર્બલ સ્ટોર', nlDashboard: 'પેશન્ટ પોર્ટલ', nlContact: 'સંપર્ક'
+        }
+      },
+      kn: {
+        name: 'ಕನ್ನಡ (Kannada)', flag: '🇮🇳',
+        navBook: 'ಶುಲ್ಕ ₹300 ಕಾಯ್ದಿರಿಸಿ',
+        toast: 'ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ 🇮🇳 ಕನ್ನಡ',
+        bookConsult: 'ಸಲಹೆ ಕಾಯ್ದಿರಿಸಿ',
+        addToCart: 'ಕಾರ್ಟ್‌ಗೆ ಸೇರಿಸಿ',
+        naturalBadge: '100% ನೈಸರ್ಗಿಕ',
+        navLinks: {
+          nlHome: 'ಮುಖಪುಟ', nlAbout: 'ವೈದ್ಯರ ಬಗ್ಗೆ', nlServices: 'ಸೇವೆಗಳು',
+          nlSymptoms: 'ಲಕ್ಷಣ ಪರಿಶೀಲನೆ', nlAppointment: 'ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್', nlPrescription: 'ಇ-ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್',
+          nlStore: 'ಹರ್ಬಲ್ ಸ್ಟೋರ್', nlDashboard: 'ರೋಗಿ ಪೋರ್ಟಲ್', nlContact: 'ಸಂಪರ್ಕಿಸಿ'
+        }
+      },
+      ml: {
+        name: 'മലയാളം (Malayalam)', flag: '🇮🇳',
+        navBook: 'ഫീസ് ₹300 ബുക്ക് ചെയ്യുക',
+        toast: 'ഭാഷ തിരഞ്ഞെടുത്തു 🇮🇳 മലയാളം',
+        bookConsult: 'കൺസൾട്ടേഷൻ ബുക്ക് ചെയ്യുക',
+        addToCart: 'കാർട്ടിലേക്ക് ചേർക്കുക',
+        naturalBadge: '100% പ്രകൃതിദത്തം',
+        navLinks: {
+          nlHome: 'ഹോം', nlAbout: 'ഡോക്ടറെക്കുറിച്ച്', nlServices: 'സേവനങ്ങൾ',
+          nlSymptoms: 'ലക്ഷണങ്ങൾ പരിശോധിക്കുക', nlAppointment: 'അപ്പോയിന്റ്മെന്റ്', nlPrescription: 'ഇ-പ്രിസ്ക്രിപ്ഷൻ',
+          nlStore: 'ഹെർബൽ സ്റ്റോർ', nlDashboard: 'രോഗി പോർട്ടൽ', nlContact: 'ബന്ധപ്പെടുക'
+        }
+      },
+      pa: {
+        name: 'ਪੰਜਾਬੀ (Punjabi)', flag: '🇮🇳',
+        navBook: 'ਫੀਸ ₹300 ਬੁੱਕ ਕਰੋ',
+        toast: 'ਭਾਸ਼ਾ ਚੁਣੀ ਗਈ 🇮🇳 ਪੰਜਾਬੀ',
+        bookConsult: 'ਸਲਾਹ ਬੁੱਕ ਕਰੋ',
+        addToCart: 'ਕਾਰਟ ਵਿੱਚ ਜੋੜੋ',
+        naturalBadge: '100% ਕੁਦਰਤੀ',
+        navLinks: {
+          nlHome: 'ਮੁੱਖ ਪੰਨਾ', nlAbout: 'ਡਾਕਟਰ ਬਾਰੇ', nlServices: 'ਸੇਵਾਵਾਂ',
+          nlSymptoms: 'ਲੱਛਣ ਜਾਂਚ', nlAppointment: 'ਅਪਾਇੰਟਮੈਂਟ', nlPrescription: 'ਈ-ਪਰਚਾ',
+          nlStore: 'ਹਰਬਲ ਸਟੋਰ', nlDashboard: 'ਮਰੀਜ਼ ਪੋਰਟਲ', nlContact: 'ਸੰਪਰਕ'
+        }
+      },
+      or: {
+        name: 'ଓଡ଼ିଆ (Odia)', flag: '🇮🇳',
+        navBook: 'ଫି ₹୩୦୦ ବୁକ୍ କରନ୍ତୁ',
+        toast: 'ଭାଷା ପରିବର୍ତ୍ତିତ 🇮🇳 ଓଡ଼ିଆ',
+        bookConsult: 'ପରାମର୍ଶ ବୁକ୍ କରନ୍ତୁ',
+        addToCart: 'କାର୍ଟରେ ଯୋଡ଼ନ୍ତୁ',
+        naturalBadge: '୧୦୦% ପ୍ରାକୃତିକ',
+        navLinks: {
+          nlHome: 'ମୁଖ୍ୟ ପୃଷ୍ଠା', nlAbout: 'ଡାକ୍ତରଙ୍କ ବିଷୟରେ', nlServices: 'ସେବାସମୂହ',
+          nlSymptoms: 'ଲକ୍ଷଣ ପରୀକ୍ଷା', nlAppointment: 'ଆପଏଣ୍ଟମେଣ୍ଟ', nlPrescription: 'ଇ-ପ୍ରେସକ୍ରିପସନ୍',
+          nlStore: 'ହର୍ବାଲ ଷ୍ଟୋର', nlDashboard: 'ରୋଗୀ ପୋର୍ଟାଲ', nlContact: 'ସମ୍ପର୍କ'
+        }
+      },
+      bho: {
+        name: 'भोजपुरी (Bhojpuri)', flag: '🇮🇳',
+        navBook: 'बुक फीस ₹300',
+        toast: 'भाषा चुनल गइल 🇮🇳 भोजपुरी',
+        bookConsult: 'सलाह बुक करीं',
+        addToCart: 'झोला में जोड़ीं',
+        naturalBadge: '100% प्राकृतिक',
+        navLinks: {
+          nlHome: 'मुख्य पन्ना', nlAbout: 'डाक्टर के बारे में', nlServices: 'सेवा सब',
+          nlSymptoms: 'लक्षण जांच', nlAppointment: 'अपॉइंटमेंट', nlPrescription: 'डिजिटल परचा',
+          nlStore: 'जड़ी-बूटी दुकान', nlDashboard: 'मरीज पोर्टल', nlContact: 'संपर्क'
+        }
+      },
+      mai: {
+        name: 'मैथिली (Maithili)', flag: '🇮🇳',
+        navBook: 'बुक फीस ₹300',
+        toast: 'भाषा चयन कएल गेल 🇮🇳 मैथिली',
+        bookConsult: 'सलाह बुक करू',
+        addToCart: 'कार्ट में जोडू',
+        naturalBadge: '100% प्राकृतिक',
+        navLinks: {
+          nlHome: 'मुख्य पृष्ठ', nlAbout: 'डाक्टर परिचय', nlServices: 'सेवा सभ',
+          nlSymptoms: 'लक्षण जाँच', nlAppointment: 'अपॉइंटमेंट', nlPrescription: 'डिजिटल पर्चा',
+          nlStore: 'हर्बल स्टोर', nlDashboard: 'मरीज़ पोर्टल', nlContact: 'संपर्क'
+        }
+      },
+      ur: {
+        name: 'اردو (Urdu)', flag: '🇮🇳',
+        navBook: 'فیس ₹300 بک کریں',
+        toast: 'زبان منتخب کی گئی 🇮🇳 اردو',
+        bookConsult: 'مشورہ بک کریں',
+        addToCart: 'کارٹ میں شامل کریں',
+        naturalBadge: '100% قدرتی',
+        navLinks: {
+          nlHome: 'مرکزی صفحہ', nlAbout: 'ڈاکٹر کے بارے میں', nlServices: 'خدمات',
+          nlSymptoms: 'علامات کی جانچ', nlAppointment: 'اپائنٹمنٹ', nlPrescription: 'ڈیجیٹل نسخہ',
+          nlStore: 'ہربل اسٹور', nlDashboard: 'مریض پورٹل', nlContact: 'رابطہ'
+        }
+      }
+    };
+
+    function getLangConfig() {
+      return INDIAN_LANGUAGES[currentLang] || INDIAN_LANGUAGES['hi'];
+    }
+
+    function getLocalizedText(item, field) {
+      if (!item) return '';
+      if (item[field + '_' + currentLang]) return item[field + '_' + currentLang];
+      if (item[field + '_hi']) return item[field + '_hi'];
+      if (item[field + '_en']) return item[field + '_en'];
+      return item[field] || '';
+    }
+
+    const SERVICES_DATA = [
+      { id: 1, title_hi: 'नेचुरोपैथी परामर्श', title_en: 'Naturopathy Consultation', desc_hi: 'नेचुरोपैथी विशेषज्ञ द्वारा व्यक्तिगत स्वास्थ्य विश्लेषण एवं उपचार योजना।', desc_en: 'Personalized health evaluation & treatment plan by Naturopathy BNYS expert.', icon: 'bi-flower2' },
+      { id: 2, title_hi: 'लाइफस्टाइल काउंसलिंग', title_en: 'Lifestyle Counseling', desc_hi: 'दैनिक दिनचर्या, नींद सुधार एवं संतुलित जीवनशैली मार्गदर्शन।', desc_en: 'Daily routine, sleep optimization & balanced lifestyle guidance.', icon: 'bi-heart-pulse' },
+      { id: 3, title_hi: 'आहार एवं पोषण मार्गदर्शन', title_en: 'Diet & Nutrition Guidance', desc_hi: 'प्राकृतिक आहार, जूस थेरेपी एवं विषाक्त पदार्थ (Detox) निवारण आहार चार्ट।', desc_en: 'Natural diet, juice therapy, and detox meal planning.', icon: 'bi-egg-fried' },
+      { id: 4, title_hi: 'वजन प्रबंधन', title_en: 'Weight Management', desc_hi: 'बिना हानिकारक दवाओं के स्वस्थ तरीके से प्राकृतिक वजन घटाना व बढ़ाना।', desc_en: 'Healthy, natural weight gain and loss without harmful drugs.', icon: 'bi-speedometer2' },
+      { id: 5, title_hi: 'तनाव प्रबंधन', title_en: 'Stress Management', desc_hi: 'मानसिक तनाव, चिंता एवं अनिद्रा को प्राकृतिक ध्यान एवं योग से दूर करना।', desc_en: 'Relieving stress, anxiety and insomnia through meditation & yoga.', icon: 'bi-emoji-smile' },
+      { id: 6, title_hi: 'योग एवं वैलनेस मार्गदर्शन', title_en: 'Yoga & Wellness Guidance', desc_hi: 'प्राणायाम, श्वास क्रियाएं एवं वैलनेस योगाभ्यास मार्गदर्शन।', desc_en: 'Pranayama, breathing exercises, and wellness yoga sessions.', icon: 'bi-body-text' },
+      { id: 7, title_hi: 'पाचन वैलनेस', title_en: 'Digestive Wellness', desc_hi: 'गैस, अपच, कब्ज, एसिडिटी का स्थायी प्राकृतिक निदान।', desc_en: 'Permanent natural care for gas, indigestion, constipation & acidity.', icon: 'bi-circle-square' },
+      { id: 8, title_hi: 'जोड़ों एवं गतिशीलता', title_en: 'Joint & Mobility Wellness', desc_hi: 'जोड़ों के दर्द, अकड़न एवं आर्थराइटिस में प्राकृतिक आराम एवं तैल मालिश।', desc_en: 'Natural relief, herbal oil massage & mobility support for joint stiffness.', icon: 'bi-bandaid' },
+      { id: 9, title_hi: 'नींद एवं दिनचर्या', title_en: 'Sleep & Lifestyle Guidance', desc_hi: 'गहरी नींद एवं जीवनशैली सुधार द्वारा शरीर का प्राकृतिक पुनर्जीवन।', desc_en: 'Rejuvenating body through deep restorative sleep & daily routine care.', icon: 'bi-moon-stars' },
+      { id: 10, title_hi: 'सामान्य वैलनेस परामर्श', title_en: 'General Wellness Consultation', desc_hi: 'सामान्य स्वास्थ्य, रोग प्रतिरोधक क्षमता वृद्धि एवं पारिवारिक स्वास्थ्य सलाह।', desc_en: 'Overall health evaluation, immunity boosting & family wellness care.', icon: 'bi-shield-plus' }
+    ];
+
+    const SYMPTOMS_OPTIONS = [
+      { id: 'gas', text_hi: 'गैस / अपच', text_en: 'Gas / Indigestion' },
+      { id: 'weight', text_hi: 'वजन बढ़ना', text_en: 'Weight Gain / Obesity' },
+      { id: 'stress', text_hi: 'तनाव / चिंता', text_en: 'Stress / Anxiety' },
+      { id: 'sleep', text_hi: 'नींद की समस्या', text_en: 'Sleep Issues / Insomnia' },
+      { id: 'joint', text_hi: 'जोड़ों में असहजता', text_en: 'Joint / Muscle Pain' },
+      { id: 'constipation', text_hi: 'कब्ज', text_en: 'Constipation' },
+      { id: 'fatigue', text_hi: 'थकान / कमजोरी', text_en: 'Fatigue / Low Energy' },
+      { id: 'headache', text_hi: 'सिरदर्द', text_en: 'Headache / Migraine' },
+      { id: 'skin', text_hi: 'त्वचा समस्या', text_en: 'Skin Health Concerns' },
+      { id: 'wellness', text_hi: 'सामान्य वैलनेस', text_en: 'General Wellness' }
+    ];
+
+    let PRODUCTS_DATA = JSON.parse(localStorage.getItem('drk_products') || '[]');
+    let cart = JSON.parse(localStorage.getItem('drk_cart') || '[]');
+    let currentPendingBooking = null;
+    let isAdminLoggedIn = false;
+    let currentSupportFilter = 'all';
+
+    // --- Init Application Data ---
+    document.addEventListener('DOMContentLoaded', () => {
+      initDemoStorage();
+      updateLanguageUI(false);
+      renderServices();
+      renderSymptoms();
+      renderProducts();
+      updateCartBadge();
+      renderDashboard();
+      
+      // Date Picker restriction (Min date = Today)
+      const datePicker = document.getElementById('appointmentDate');
+      if (datePicker) {
+        const today = new Date().toISOString().split('T')[0];
+        datePicker.min = today;
+      }
+    });
+
+    // --- Language Switcher Function ---
+    function switchLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('drk_lang', lang);
+      updateLanguageUI(true);
+    }
+
+    function updateLanguageUI(notify = true) {
+      const cfg = getLangConfig();
+
+      const selector = document.getElementById('indianLangSelector');
+      if (selector && selector.value !== currentLang) {
+        selector.value = currentLang;
+      }
+
+      const navBookText = document.getElementById('navBookText');
+      if (navBookText) navBookText.textContent = cfg.navBook;
+
+      if (cfg.navLinks) {
+        Object.keys(cfg.navLinks).forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.textContent = cfg.navLinks[id];
+        });
+      }
+
+      renderServices();
+      renderSymptoms();
+      renderProducts();
+
+      if (notify) {
+        showToast(cfg.toast);
+      }
+    }
+
+    // Seed Demo Storage if empty
+    function initDemoStorage() {
+      if (!localStorage.getItem('drk_products') || JSON.parse(localStorage.getItem('drk_products')).length === 0) {
+        const defaultProducts = [
+          { id: 1, name_hi: 'Triphala Churna (त्रिफला चूर्ण)', name_en: 'Triphala Churna (Herbal Detox 100g)', price: 180, desc_hi: 'पाचन क्रिया सुधारक एवं प्राकृतिक डिटॉक्स मिश्रण। 100g', desc_en: 'Digestive improver and natural detox formula. 100g', icon: 'bi-box-seam', stock: 'in_stock' },
+          { id: 2, name_hi: 'Amritdhara Natural Relief (अमृतधारा)', name_en: 'Amritdhara Essential Drops 10ml', price: 120, desc_hi: 'पेट दर्द, गैस एवं सामान्य सिरदर्द में प्राकृतिक राहत। 10ml', desc_en: 'Natural relief for stomach pain, gas, and headache. 10ml', icon: 'bi-droplet-fill', stock: 'in_stock' },
+          { id: 3, name_hi: 'Herbal Digestive Syrup (पाचन अमृत)', name_en: 'Herbal Digestive Amrit Syrup 200ml', price: 220, desc_hi: 'अपच, खट्टी डकारें एवं भूख बढ़ाने का हर्बल सिरप। 200ml', desc_en: 'Herbal syrup for acidity, indigestion, and appetite boost. 200ml', icon: 'bi-prescription2', stock: 'in_stock' },
+          { id: 4, name_hi: 'Joint Pain Relief Herbal Oil', name_en: 'Joint & Muscle Relief Oil 100ml', price: 250, desc_hi: 'जोड़ों एवं मांसपेशियों के दर्द में मालिश हेतु तेल। 100ml', desc_en: 'Massaging herbal oil for joint stiffness & muscle pain. 100ml', icon: 'bi-moisture', stock: 'in_stock' },
+          { id: 5, name_hi: 'Immunity Wellness Herbal Tea', name_en: 'Immunity Wellness Herbal Tea 100g', price: 195, desc_hi: 'रोग प्रतिरोधक क्षमता एवं तनाव रोधक आयुर्वेदिक चाय। 100g', desc_en: 'Ayurvedic tea for boosting immunity & lowering stress. 100g', icon: 'bi-cup-hot', stock: 'in_stock' },
+          { id: 6, name_hi: 'Neem & Aloe Care Gel', name_en: 'Neem & Aloe Vera Care Gel 150g', price: 160, desc_hi: 'त्वचा की प्राकृतिक देखभाल एवं निखार हेतु। 150g', desc_en: 'Pure herbal gel for natural skin glow & protection. 150g', icon: 'bi-sparkles', stock: 'in_stock' }
+        ];
+        localStorage.setItem('drk_products', JSON.stringify(defaultProducts));
+        PRODUCTS_DATA = defaultProducts;
+      } else {
+        PRODUCTS_DATA = JSON.parse(localStorage.getItem('drk_products'));
+      }
+
+      if (!localStorage.getItem('drk_support_tickets')) {
+        const demoTickets = [
+          {
+            id: 'TKT-102',
+            name: 'रमेश प्रसाद',
+            mobile: '9472658120',
+            message: 'मुझे पिछले 10 दिनों से पेट में बहुत जलन और गैस की समस्या रहती है। कौन सी दवा और परहेज़ रहेगा?',
+            status: 'Pending',
+            solutionNote: '',
+            date: '2026-08-19 10:30 AM'
+          },
+          {
+            id: 'TKT-101',
+            name: 'विकास कुमार',
+            mobile: '8235125422',
+            message: 'ऑनलाइन अपॉइंटमेंट की फीस जमा करने के बाद रसीद और डिजिटल पर्चा कैसे डाउनलोड करें?',
+            status: 'Resolved',
+            solutionNote: 'पेशेंट पोर्टल (Patient Portal) में अपॉइंटमेंट ID दर्ज करके ई-प्रिस्क्रिप्शन प्रिंट कर सकते हैं।',
+            date: '2026-08-18 04:15 PM'
+          }
+        ];
+        localStorage.setItem('drk_support_tickets', JSON.stringify(demoTickets));
+      }
+
+      if (!localStorage.getItem('drk_appointments')) {
+        const demoAppts = [
+          {
+            id: 'DRK-842910',
+            name: 'अमित शर्मा',
+            mobile: '9876543210',
+            age: '34',
+            gender: 'Male',
+            date: '2026-08-25',
+            time: '11:00 AM - 12:00 PM',
+            problem: 'गैस एवं कब्ज की शिकायत',
+            fee: 300,
+            status: 'Confirmed',
+            createdAt: '2026-08-18'
+          },
+          {
+            id: 'DRK-593021',
+            name: 'सुनीता देवी',
+            mobile: '8765432109',
+            age: '45',
+            gender: 'Female',
+            date: '2026-08-28',
+            time: '04:00 PM - 05:00 PM',
+            problem: 'जोड़ों में दर्द एवं थकान',
+            fee: 300,
+            status: 'Completed',
+            createdAt: '2026-08-15'
+          }
+        ];
+        localStorage.setItem('drk_appointments', JSON.stringify(demoAppts));
+      }
+
+      if (!localStorage.getItem('drk_prescriptions')) {
+        const demoPrescriptions = [
+          {
+            id: 'DRK-842910',
+            patientName: 'अमित शर्मा',
+            age: '34',
+            gender: 'Male',
+            date: '2026-08-25',
+            diagnosis: 'पाचन असंतुलन एवं जीवनशैली तनाव',
+            dietAdvice: 'सुबह गुनगुना पानी पिएं, तला-भुना सीमित करें, भोजन धीरे चबाकर खाएं।',
+            herbalAdvice: 'त्रिफला चूर्ण (1 चम्मच रात में गुनगुने पानी से), अमृतधारा (2 बूँद पेट दर्द में)।',
+            lifestyleAdvice: '30 मिनट सुबह टहलना, 10 मिनट कपालभाति प्राणायाम।',
+            followUp: '15 दिन पश्चात'
+          }
+        ];
+        localStorage.setItem('drk_prescriptions', JSON.stringify(demoPrescriptions));
+      }
+
+      if (!localStorage.getItem('drk_orders')) {
+        const demoOrders = [
+          {
+            id: 'DRK-ORD-102938',
+            name: 'अमित शर्मा',
+            mobile: '9876543210',
+            address: 'Sirdala Bazar, Nawada',
+            amount: 300,
+            status: 'Delivered',
+            date: '2026-08-16'
+          }
+        ];
+        localStorage.setItem('drk_orders', JSON.stringify(demoOrders));
+      }
+    }
+
+    // --- Toast Engine ---
+    function showToast(msg, isSuccess = true) {
+      const toastEl = document.getElementById('liveToast');
+      const toastMsg = document.getElementById('toastMessage');
+      toastEl.className = `toast align-items-center text-white border-0 bg-${isSuccess ? 'success' : 'danger'}`;
+      toastMsg.textContent = msg;
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    }
+
+    // --- Render Functions ---
+    function renderServices() {
+      const grid = document.getElementById('servicesGrid');
+      if (!grid) return;
+      const cfg = getLangConfig();
+      grid.innerHTML = SERVICES_DATA.map(s => {
+        const title = getLocalizedText(s, 'title');
+        const desc = getLocalizedText(s, 'desc');
+        return `
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="trust-icon"><i class="bi ${s.icon}"></i></div>
+              <h5 class="fw-bold mb-2">${title}</h5>
+              <p class="text-secondary small mb-3 flex-grow-1">${desc}</p>
+              <a href="#appointment" class="btn btn-outline-naturopathy btn-sm w-100 mt-auto">${cfg.bookConsult}</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderSymptoms() {
+      const list = document.getElementById('symptomsList');
+      if (!list) return;
+      list.innerHTML = SYMPTOMS_OPTIONS.map((sym, idx) => {
+        const text = getLocalizedText(sym, 'text');
+        return `
+          <div>
+            <input type="checkbox" class="btn-check symptom-checkbox" id="sym_${idx}" value="${text}" autocomplete="off">
+            <label class="symptom-badge-check" for="sym_${idx}"><i class="bi bi-plus-lg me-1"></i>${text}</label>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderProducts() {
+      const grid = document.getElementById('productsGrid');
+      if (!grid) return;
+      const cfg = getLangConfig();
+      grid.innerHTML = PRODUCTS_DATA.map(p => {
+        const name = getLocalizedText(p, 'name');
+        const desc = getLocalizedText(p, 'desc');
+        return `
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card h-100 d-flex flex-column">
+              <div class="product-img-box">
+                <i class="bi ${p.icon}"></i>
+              </div>
+              <div class="p-4 flex-grow-1 d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="fw-bold mb-1">${name}</h5>
+                  <p class="text-muted small mb-3">${desc}</p>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="fs-4 fw-bold text-success">₹${p.price}</span>
+                    <span class="badge bg-success-subtle text-success">${cfg.naturalBadge}</span>
+                  </div>
+                  <button class="btn btn-naturopathy w-100" onclick="addToCart(${p.id})">
+                    <i class="bi bi-cart-plus me-1"></i> ${cfg.addToCart}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // --- Smart Symptom Checker Engine ---
+    document.getElementById('symptomForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const checkedBoxes = Array.from(document.querySelectorAll('.symptom-checkbox:checked')).map(cb => cb.value);
+      
+      if (checkedBoxes.length === 0) {
+        showToast('कृपया कम से कम एक लक्षण का चयन करें।', false);
+        return;
+      }
+
+      const age = document.getElementById('symptomAge').value;
+      const duration = document.getElementById('symptomDuration').value;
+
+      let factors = [];
+      let suggestions = [];
+      let doctorGuidance = "सामान्य वैलनेस सुधार के लिए 15 दिनों में समीक्षा करें।";
+
+      if (checkedBoxes.includes('गैस / अपच') || checkedBoxes.includes('कब्ज')) {
+        factors.push("अनियमित भोजन समय, कम पानी पीना, भोजन तेजी से चबाना।");
+        suggestions.push("प्रतिदिन 3-4 लीटर पानी पिएं।", "रात का खाना हल्का व सुपाच्य रखें।", "सुबह गुनगुने पानी में नींबू-शहद या त्रिफला का सेवन करें।");
+      }
+
+      if (checkedBoxes.includes('तनाव') || checkedBoxes.includes('नींद की समस्या')) {
+        factors.push("अधिक स्क्रीन टाइम, अनियमित दिनचर्या, मानसिक थकान।");
+        suggestions.push("सोने से 1 घंटे पहले मोबाइल का उपयोग बंद करें।", "15 मिनट अनुलोम-विलोम प्राणायाम करें।", "हर्बल टी का सेवन करें।");
+      }
+
+      if (checkedBoxes.includes('जोड़ों में असहजता') || checkedBoxes.includes('थकान')) {
+        factors.push("शरीर में विषाक्त पदार्थों (Toxins) का जमाव, शारीरिक गतिविधि की कमी।");
+        suggestions.push("हल्की स्ट्रेचिंग व योगाभ्यास करें।", "तिल के तेल या हर्बल तेल से मालिश करें।", "धूप में 20 मिनट बैठें।");
+      }
+
+      if (factors.length === 0) {
+        factors.push("सामान्य जीवनशैली असंतुलन।");
+        suggestions.push("संतुलित सात्विक आहार लें।", "नियमित योग व ध्यान करें।");
+      }
+
+      const resultBox = document.getElementById('symptomResultBox');
+      resultBox.classList.remove('d-none');
+      resultBox.innerHTML = `
+        <h5 class="fw-bold text-success mb-3"><i class="bi bi-patch-check me-2"></i> Smart Wellness Guidance Result</h5>
+        
+        <div class="mb-3">
+          <strong class="text-dark d-block mb-1"><i class="bi bi-info-circle text-primary me-1"></i> Possible Wellness Factors (संभावित कारक):</strong>
+          <ul class="small text-secondary mb-0">
+            ${factors.map(f => `<li>${f}</li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="mb-3">
+          <strong class="text-dark d-block mb-1"><i class="bi bi-tree text-success me-1"></i> Natural Lifestyle Suggestions (प्राकृतिक सुझाव):</strong>
+          <ul class="small text-secondary mb-0">
+            ${suggestions.map(s => `<li>${s}</li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="p-3 bg-white rounded border border-warning">
+          <strong class="text-warning-emphasis d-block small mb-1"><i class="bi bi-telephone-outbound me-1"></i> When to Consult Doctor:</strong>
+          <small class="text-dark">यदि लक्षण ${duration} से अधिक बने हुए हैं या तीव्र दर्द/उल्टी/चक्कर आ रहे हैं तो तुरंत डा. रंजीत कुमार जी से परामर्श लें।</small>
+        </div>
+
+        <div class="mt-3 text-end">
+          <a href="#appointment" class="btn btn-naturopathy btn-sm">Book Doctor Consultation – ₹300</a>
+        </div>
+      `;
+      resultBox.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // --- Appointment Booking Logic ---
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      if (!form.checkValidity()) {
+        e.stopPropagation();
+        form.classList.add('was-validated');
+        return;
+      }
+
+      const name = document.getElementById('patientName').value.trim();
+      const mobile = document.getElementById('patientMobile').value.trim();
+      const age = document.getElementById('patientAge').value;
+      const gender = document.getElementById('patientGender').value;
+      const date = document.getElementById('appointmentDate').value;
+      const time = document.getElementById('appointmentTime').value;
+      const problem = document.getElementById('patientProblem').value.trim() || 'General Wellness';
+
+      currentPendingBooking = { name, mobile, age, gender, date, time, problem, fee: 300 };
+
+      // Open Payment Modal
+      const payModal = new bootstrap.Modal(document.getElementById('paymentModal'));
+      payModal.show();
+    });
+
+    function completePaymentDemo() {
+      if (!currentPendingBooking) return;
+
+      const apptId = 'DRK-' + Math.floor(100000 + Math.random() * 900000);
+      const apptData = {
+        id: apptId,
+        ...currentPendingBooking,
+        status: 'Confirmed',
+        createdAt: new Date().toISOString().split('T')[0]
+      };
+
+      // Save to localStorage
+      let appts = JSON.parse(localStorage.getItem('drk_appointments') || '[]');
+      appts.unshift(apptData);
+      localStorage.setItem('drk_appointments', JSON.stringify(appts));
+
+      // Close Payment Modal
+      bootstrap.Modal.getInstance(document.getElementById('paymentModal')).hide();
+
+      // Render Confirmation
+      const confBody = document.getElementById('confirmationCardBody');
+      confBody.innerHTML = `
+        <p class="mb-1"><strong>Appointment ID:</strong> <span class="badge bg-success fs-6">${apptData.id}</span></p>
+        <p class="mb-1"><strong>Patient Name:</strong> ${apptData.name}</p>
+        <p class="mb-1"><strong>Date & Time:</strong> ${apptData.date} | ${apptData.time}</p>
+        <p class="mb-1"><strong>Clinic:</strong> Dr. Ranjeet Kumar Naturopathy Clinic, Sirdala</p>
+        <p class="mb-0"><strong>Fee Paid:</strong> ₹300 (Status: Confirmed)</p>
+      `;
+
+      const waMsg = encodeURIComponent(`नमस्कार Dr. Ranjeet Kumar Naturopathy Clinic, मैं ${apptData.name} हूँ। मेरी Appointment ID: ${apptData.id} है। तारीख: ${apptData.date} (${apptData.time})।`);
+      document.getElementById('confirmWhatsAppBtn').href = `https://wa.me/918235125422?text=${waMsg}`;
+
+      // Show Confirmation Modal
+      const confModal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+      confModal.show();
+
+      // Reset form
+      document.getElementById('appointmentForm').reset();
+      document.getElementById('appointmentForm').classList.remove('was-validated');
+      currentPendingBooking = null;
+
+      // Refresh Dashboard
+      renderDashboard();
+    }
+
+    // --- Search E-Prescription ---
+    function searchPrescription() {
+      const query = document.getElementById('searchPrescriptionInput').value.trim();
+      const display = document.getElementById('prescriptionDisplayBox');
+
+      if (!query) {
+        showToast('कृपया Appointment ID दर्ज करें।', false);
+        return;
+      }
+
+      const prescList = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+      const found = prescList.find(p => p.id.toLowerCase() === query.toLowerCase() || p.id.includes(query));
+
+      if (found) {
+        display.innerHTML = `
+          <div id="printable-prescription" class="prescription-paper bg-white p-4 p-md-5 rounded-4 border shadow-sm position-relative overflow-hidden">
+            <!-- Clinic Watermark Background -->
+            <div class="prescription-watermark">
+              <i class="bi bi-flower1 display-1 text-success d-block mb-2"></i>
+              <span class="fs-4 fw-bold text-success text-uppercase">Dr. Ranjeet Kumar Naturopathy Clinic</span>
+            </div>
+
+            <!-- CLINIC LETTERHEAD HEADER -->
+            <div class="prescription-letterhead border-bottom border-3 border-success pb-3 mb-4 position-relative" style="z-index: 1;">
+              <div class="row align-items-center">
+                <div class="col-8">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="prescription-letterhead-logo clinic-logo-emblem">
+                      <i class="bi bi-flower1"></i>
+                    </div>
+                    <div>
+                      <h3 class="fw-bold text-success mb-0 text-uppercase tracking-wide font-heading" style="font-size: 1.35rem;">
+                        Dr. Ranjeet Kumar Naturopathy Clinic
+                      </h3>
+                      <p class="mb-0 fw-semibold text-dark small">
+                        Center for Natural Healing, Yoga Therapy & Holistic Wellness
+                      </p>
+                      <small class="text-muted d-block" style="font-size: 0.78rem;">
+                        <strong>Dr. Ranjeet Kumar</strong> (BNYS, MD - Naturopathy & Yogic Sciences) • Reg No: BNYS-ND-842910
+                      </small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4 text-end ps-3 border-start border-success border-opacity-25">
+                  <div class="lh-sm text-secondary" style="font-size: 0.76rem;">
+                    <p class="mb-1 fw-bold text-dark"><i class="bi bi-geo-alt-fill text-success me-1"></i> Main Road, Sirdala, Nawada (Bihar) - 805127</p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill text-success me-1"></i> <strong>Helpline:</strong> +91 8235125422</p>
+                    <p class="mb-1"><i class="bi bi-telegram text-primary me-1"></i> <strong>Telegram:</strong> t.me/Ranjeetkoldihanawada</p>
+                    <p class="mb-0 text-muted"><i class="bi bi-clock-fill text-success me-1"></i> Timings: 9 AM - 1 PM | 4 PM - 8 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PATIENT & PRESCRIPTION METADATA BAR -->
+            <div class="patient-info-box bg-success-subtle bg-opacity-25 border border-success border-opacity-25 rounded-3 p-3 mb-4 position-relative" style="z-index: 1;">
+              <div class="row g-2 text-dark" style="font-size: 0.88rem;">
+                <div class="col-md-3 col-6">
+                  <span class="text-muted d-block small">Patient Name / रोगी का नाम:</span>
+                  <strong class="text-success fs-6">${found.patientName}</strong>
+                </div>
+                <div class="col-md-3 col-6">
+                  <span class="text-muted d-block small">Age & Gender / आयु व लिंग:</span>
+                  <strong>${found.age} Yrs / ${found.gender}</strong>
+                </div>
+                <div class="col-md-3 col-6">
+                  <span class="text-muted d-block small">Rx No / Appointment ID:</span>
+                  <strong class="text-primary font-monospace">${found.id}</strong>
+                </div>
+                <div class="col-md-3 col-6 text-md-end">
+                  <span class="text-muted d-block small">Date of Issue / तारीख:</span>
+                  <strong>${found.date}</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- PRESCRIPTION BODY -->
+            <div class="prescription-body position-relative" style="z-index: 1;">
+              <div class="d-flex align-items-center mb-3">
+                <span class="rx-symbol-badge me-2">℞</span>
+                <span class="fs-6 fw-bold text-success text-uppercase tracking-wide">Naturopathic Healing Plan & Prescription</span>
+              </div>
+
+              <div class="row g-3 mb-4">
+                <div class="col-12">
+                  <div class="p-3 bg-white border border-success border-opacity-25 rounded-3 shadow-2xs">
+                    <h6 class="fw-bold text-success mb-2 d-flex align-items-center">
+                      <i class="bi bi-file-earmark-medical me-2"></i> 1. Clinical Diagnosis & Wellness Notes (निदान एवं परामर्श)
+                    </h6>
+                    <p class="mb-0 text-dark ps-4 small">${found.diagnosis}</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 bg-white border border-success border-opacity-25 rounded-3 h-100 shadow-2xs">
+                    <h6 class="fw-bold text-success mb-2 d-flex align-items-center">
+                      <i class="bi bi-egg-fried me-2"></i> 2. Dietary & Detox Recommendations (आहार एवं डिटॉक्स योजना)
+                    </h6>
+                    <p class="mb-0 text-dark ps-4 small">${found.dietAdvice}</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="p-3 bg-white border border-success border-opacity-25 rounded-3 h-100 shadow-2xs">
+                    <h6 class="fw-bold text-success mb-2 d-flex align-items-center">
+                      <i class="bi bi-capsule me-2"></i> 3. Herbal Supplements & Remedies (हर्बल औषधि व प्रयोग)
+                    </h6>
+                    <p class="mb-0 text-dark ps-4 small">${found.herbalAdvice}</p>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="p-3 bg-white border border-success border-opacity-25 rounded-3 shadow-2xs">
+                    <h6 class="fw-bold text-success mb-2 d-flex align-items-center">
+                      <i class="bi bi-activity me-2"></i> 4. Lifestyle, Yoga & Pranayama Guidance (दिनचर्या एवं योगाभ्यास)
+                    </h6>
+                    <p class="mb-0 text-dark ps-4 small">${found.lifestyleAdvice}</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FOLLOW-UP & SIGNATURE FOOTER -->
+              <div class="row align-items-end pt-3 mt-4 border-top border-2 border-success border-opacity-25">
+                <div class="col-7">
+                  <div class="p-2 bg-success-subtle border border-success border-opacity-25 rounded-3 text-success-emphasis" style="font-size: 0.82rem;">
+                    <i class="bi bi-arrow-repeat me-1 fw-bold"></i> <strong>Follow-up Advice / पुनरागम सलाह:</strong> ${found.followUp}
+                    <div class="text-muted mt-1" style="font-size: 0.72rem;">* नोट: गंभीर समस्या या आपात स्थिति में तुरंत क्लिनिक हेल्पलाइन पर संपर्क करें।</div>
+                  </div>
+                </div>
+                <div class="col-5 text-end">
+                  <div class="d-inline-block text-center">
+                    <div class="border-bottom border-dark pb-1 px-3 mb-1">
+                      <span class="text-success fw-bold font-heading d-block" style="font-family: 'Playfair Display', cursive, serif; font-size: 1.15rem; font-style: italic;">Dr. Ranjeet Kumar</span>
+                      <small class="text-muted d-block" style="font-size: 0.68rem;">Digitally Verified Signature</small>
+                    </div>
+                    <small class="fw-bold text-dark d-block" style="font-size: 0.8rem;">Dr. Ranjeet Kumar (BNYS)</small>
+                    <small class="text-muted d-block" style="font-size: 0.7rem;">Senior Naturopathy Physician</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PRINT FOOTER LEGAL DISCLAIMER -->
+            <div class="text-center text-muted mt-4 pt-2 border-top border-light-subtle" style="font-size: 0.68rem;">
+              This is a digitally verified E-Prescription issued by Dr. Ranjeet Kumar Naturopathy Clinic, Sirdala, Nawada (Bihar).
+            </div>
+
+            <!-- ON-SCREEN ACTION BUTTON (NO-PRINT) -->
+            <div class="mt-4 no-print text-center">
+              <button class="btn btn-naturopathy px-4 py-2 shadow-sm" onclick="window.print()">
+                <i class="bi bi-printer me-1"></i> Print / Save as PDF Prescription
+              </button>
+            </div>
+          </div>
+        `;
+      } else {
+        display.innerHTML = `
+          <div class="alert alert-warning text-center mb-0">
+            <i class="bi bi-exclamation-triangle fs-3 d-block mb-2"></i>
+            <strong>कोई प्रिस्क्रिप्शन नहीं मिला!</strong><br>
+            कृपया वैध Appointment ID (उदा. DRK-842910) दर्ज करें अथवा क्लिनिक हेल्पलाइन 8235125422 पर संपर्क करें।
+          </div>
+        `;
+      }
+    }
+
+    // --- Cart & E-Commerce Logic ---
+    function addToCart(productId) {
+      const prod = PRODUCTS_DATA.find(p => p.id === productId);
+      if (!prod) return;
+
+      const existing = cart.find(item => item.id === productId);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({ ...prod, qty: 1 });
+      }
+
+      saveCart();
+      showToast(`${prod.name} कार्ट में जोड़ा गया!`);
+    }
+
+    function saveCart() {
+      localStorage.setItem('drk_cart', JSON.stringify(cart));
+      updateCartBadge();
+    }
+
+    function updateCartBadge() {
+      const badge = document.getElementById('cartBadge');
+      const totalCount = cart.reduce((acc, i) => acc + i.qty, 0);
+      badge.textContent = totalCount;
+    }
+
+    document.getElementById('cartModal').addEventListener('show.bs.modal', renderCart);
+
+    function renderCart() {
+      const itemsList = document.getElementById('cartItemsList');
+      const totalText = document.getElementById('cartTotalText');
+
+      if (cart.length === 0) {
+        itemsList.innerHTML = `<p class="text-center text-muted py-4">आपका कार्ट खाली है।</p>`;
+        totalText.textContent = '₹0';
+        document.getElementById('checkoutBtn').disabled = true;
+        return;
+      }
+
+      document.getElementById('checkoutBtn').disabled = false;
+      let grandTotal = 0;
+
+      itemsList.innerHTML = cart.map(item => {
+        const itemTotal = item.price * item.qty;
+        grandTotal += itemTotal;
+        return `
+          <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
+            <div>
+              <h6 class="fw-bold mb-0">${item.name}</h6>
+              <small class="text-muted">₹${item.price} each</small>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-sm btn-outline-secondary px-2 py-0" onclick="changeQty(${item.id}, -1)">-</button>
+              <span class="fw-bold">${item.qty}</span>
+              <button class="btn btn-sm btn-outline-secondary px-2 py-0" onclick="changeQty(${item.id}, 1)">+</button>
+              <span class="fw-bold ms-3" style="width: 60px; text-align: right;">₹${itemTotal}</span>
+              <button class="btn btn-sm text-danger border-0 ms-2" onclick="removeFromCart(${item.id})"><i class="bi bi-trash"></i></button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      totalText.textContent = `₹${grandTotal}`;
+    }
+
+    function changeQty(productId, delta) {
+      const item = cart.find(i => i.id === productId);
+      if (item) {
+        item.qty += delta;
+        if (item.qty <= 0) {
+          cart = cart.filter(i => i.id !== productId);
+        }
+        saveCart();
+        renderCart();
+      }
+    }
+
+    function removeFromCart(productId) {
+      cart = cart.filter(i => i.id !== productId);
+      saveCart();
+      renderCart();
+    }
+
+    function openCheckoutModal() {
+      bootstrap.Modal.getInstance(document.getElementById('cartModal')).hide();
+      const checkoutModal = new bootstrap.Modal(document.getElementById('checkoutModal'));
+      checkoutModal.show();
+    }
+
+    document.getElementById('checkoutForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const orderId = 'DRK-ORD-' + Math.floor(100000 + Math.random() * 900000);
+      const name = document.getElementById('orderName').value;
+      const mobile = document.getElementById('orderMobile').value;
+      const address = document.getElementById('orderAddress').value;
+      const grandTotal = cart.reduce((acc, i) => acc + (i.price * i.qty), 0);
+
+      const newOrder = {
+        id: orderId,
+        name,
+        mobile,
+        address,
+        amount: grandTotal,
+        status: 'Order Placed',
+        date: new Date().toISOString().split('T')[0]
+      };
+
+      let orders = JSON.parse(localStorage.getItem('drk_orders') || '[]');
+      orders.unshift(newOrder);
+      localStorage.setItem('drk_orders', JSON.stringify(orders));
+
+      // Clear Cart
+      cart = [];
+      saveCart();
+
+      bootstrap.Modal.getInstance(document.getElementById('checkoutModal')).hide();
+      showToast(`ऑर्डर सफलतापूर्वक दर्ज! Order ID: ${orderId}`);
+      renderDashboard();
+    });
+
+    // --- Patient Dashboard Render ---
+    function renderDashboard() {
+      const appts = JSON.parse(localStorage.getItem('drk_appointments') || '[]');
+      const prescs = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+      const orders = JSON.parse(localStorage.getItem('drk_orders') || '[]');
+
+      // Appts List
+      const apptsList = document.getElementById('dashboardApptsList');
+      if (appts.length === 0) {
+        apptsList.innerHTML = `<p class="text-muted">कोई अपॉइंटमेंट रिकॉर्ड नहीं है।</p>`;
+      } else {
+        apptsList.innerHTML = `
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead class="table-light">
+                <tr>
+                  <th>Appointment ID</th>
+                  <th>Patient Name</th>
+                  <th>Date & Time</th>
+                  <th>Fee</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${appts.map(a => `
+                  <tr>
+                    <td><span class="badge bg-success-subtle text-success fw-bold">${a.id}</span></td>
+                    <td>${a.name}</td>
+                    <td>${a.date} <br><small class="text-muted">${a.time}</small></td>
+                    <td>₹${a.fee}</td>
+                    <td><span class="badge bg-success">${a.status}</span></td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+
+      // Prescriptions List
+      const prescList = document.getElementById('dashboardPrescList');
+      if (prescs.length === 0) {
+        prescList.innerHTML = `<p class="text-muted">कोई प्रिस्क्रिप्शन उपलब्ध नहीं है।</p>`;
+      } else {
+        prescList.innerHTML = `
+          <div class="list-group">
+            ${prescs.map(p => `
+              <div class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <h6 class="fw-bold mb-1">${p.patientName} (${p.id})</h6>
+                  <small class="text-muted">Date: ${p.date} | Diagnosis: ${p.diagnosis}</small>
+                </div>
+                <button class="btn btn-outline-success btn-sm" onclick="document.getElementById('searchPrescriptionInput').value='${p.id}'; location.href='#prescription'; searchPrescription();">
+                  View Prescription
+                </button>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // Orders List
+      const ordersList = document.getElementById('dashboardOrdersList');
+      if (orders.length === 0) {
+        ordersList.innerHTML = `<p class="text-muted">कोई ऑर्डर रिकॉर्ड नहीं है।</p>`;
+      } else {
+        ordersList.innerHTML = `
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead class="table-light">
+                <tr>
+                  <th>Order ID</th>
+                  <th>Customer Name</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${orders.map(o => `
+                  <tr>
+                    <td><span class="badge bg-primary-subtle text-primary fw-bold">${o.id}</span></td>
+                    <td>${o.name}</td>
+                    <td>${o.date}</td>
+                    <td>₹${o.amount}</td>
+                    <td><span class="badge bg-info text-dark">${o.status}</span></td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    }
+
+    // Contact Form submission feedback & Support Ticket Storage
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const nameInput = this.querySelector('input[type="text"]');
+      const mobileInput = this.querySelector('input[type="tel"]');
+      const messageInput = this.querySelector('textarea');
+
+      const name = nameInput ? nameInput.value.trim() : 'Patient';
+      const mobile = mobileInput ? mobileInput.value.trim() : '';
+      const message = messageInput ? messageInput.value.trim() : '';
+
+      const newTicket = {
+        id: 'TKT-' + Math.floor(100 + Math.random() * 900),
+        name,
+        mobile,
+        message,
+        status: 'Pending',
+        solutionNote: '',
+        date: new Date().toLocaleString('en-IN', { dateStyle: 'short', timeStyle: 'short' })
+      };
+
+      let tickets = JSON.parse(localStorage.getItem('drk_support_tickets') || '[]');
+      tickets.unshift(newTicket);
+      localStorage.setItem('drk_support_tickets', JSON.stringify(tickets));
+
+      showToast('धन्यवाद! आपकी समस्या एडमिन पैनल में दर्ज कर ली गई है। डॉक्टर जल्द ही समाधान प्रदान करेंगे।');
+      this.reset();
+
+      if (isAdminLoggedIn) {
+        renderAdminSupportTickets();
+      }
+    });
+
+    // ==========================================
+    // ADMIN PANEL & DAVA LISTING MANAGEMENT JS
+    // ==========================================
+    function openAdminPanel() {
+      if (isAdminLoggedIn) {
+        const adminModal = new bootstrap.Modal(document.getElementById('adminDashboardModal'));
+        renderAdminSupportTickets();
+        renderAdminProducts();
+        renderAdminAppointments();
+        renderAdminPrescriptionsHistory();
+        renderAdminOrders();
+        resetAdminPrescForm();
+        adminModal.show();
+      } else {
+        const loginModal = new bootstrap.Modal(document.getElementById('adminLoginModal'));
+        loginModal.show();
+      }
+    }
+
+    function handleAdminLogin(e) {
+      e.preventDefault();
+      const pass = document.getElementById('adminPasswordInput').value.trim();
+      if (pass === '842910' || pass === 'admin123' || pass === 'dr123') {
+        isAdminLoggedIn = true;
+        bootstrap.Modal.getInstance(document.getElementById('adminLoginModal')).hide();
+        document.getElementById('adminPasswordInput').value = '';
+        
+        // Update Nav Btn
+        const btnText = document.getElementById('adminNavBtnText');
+        if (btnText) btnText.textContent = 'Admin Control Panel';
+        const navBtn = document.getElementById('adminNavBtn');
+        if (navBtn) navBtn.className = 'btn btn-success btn-sm rounded-pill px-3 shadow-sm d-flex align-items-center gap-1';
+
+        showToast('स्वागत है Dr. Ranjeet Kumar! एडमिन पैनल अनलॉक हो गया है।');
+        openAdminPanel();
+      } else {
+        showToast('गलत PIN / पासवर्ड! कृपया 842910 दर्ज करें।', false);
+      }
+    }
+
+    function logoutAdmin() {
+      isAdminLoggedIn = false;
+      const modalEl = document.getElementById('adminDashboardModal');
+      if (modalEl) {
+        const inst = bootstrap.Modal.getInstance(modalEl);
+        if (inst) inst.hide();
+      }
+      const btnText = document.getElementById('adminNavBtnText');
+      if (btnText) btnText.textContent = 'Admin Login';
+      const navBtn = document.getElementById('adminNavBtn');
+      if (navBtn) navBtn.className = 'btn btn-outline-success btn-sm rounded-pill px-3 shadow-sm d-flex align-items-center gap-1';
+      showToast('एडमिन पैनल लॉग-आउट हो गया है।');
+    }
+
+    // --- Customer Support & Problem Resolution Logic ---
+    function filterSupportTickets(filter, btn) {
+      currentSupportFilter = filter;
+      if (btn && btn.parentElement) {
+        btn.parentElement.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      renderAdminSupportTickets();
+    }
+
+    function renderAdminSupportTickets() {
+      const tickets = JSON.parse(localStorage.getItem('drk_support_tickets') || '[]');
+      const container = document.getElementById('adminSupportList');
+      const badge = document.getElementById('pendingSupportBadge');
+
+      const pendingCount = tickets.filter(t => t.status === 'Pending').length;
+      if (badge) badge.textContent = pendingCount;
+
+      let filtered = tickets;
+      if (currentSupportFilter !== 'all') {
+        filtered = tickets.filter(t => t.status === currentSupportFilter);
+      }
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="p-4 text-center text-muted border rounded-3 bg-light">कोई समस्या/टिकट दर्ज नहीं है।</div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map(t => {
+        let statusClass = 'bg-warning text-dark';
+        if (t.status === 'In Progress') statusClass = 'bg-info text-dark';
+        if (t.status === 'Resolved') statusClass = 'bg-success text-white';
+
+        const waMsg = encodeURIComponent(`नमस्कार ${t.name} जी, Dr. Ranjeet Kumar Naturopathy Clinic सिरदला से आपकी समस्या (${t.id}) के संबंध में:\n\n${t.solutionNote ? 'समाधान: ' + t.solutionNote : 'हम आपकी सहायता के लिए तैयार हैं।'}`);
+
+        return `
+          <div class="card border-0 shadow-2xs mb-3 rounded-3 overflow-hidden">
+            <div class="card-header bg-light d-flex justify-content-between align-items-center py-2 flex-wrap gap-2">
+              <div class="d-flex align-items-center gap-2">
+                <span class="badge ${statusClass} fw-bold">${t.status}</span>
+                <span class="fw-bold text-dark">${t.id}</span>
+                <small class="text-muted">• ${t.date}</small>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <a href="tel:${t.mobile}" class="btn btn-sm btn-outline-secondary py-0 px-2"><i class="bi bi-telephone"></i> Call</a>
+                <a href="https://wa.me/91${t.mobile}?text=${waMsg}" target="_blank" class="btn btn-sm btn-outline-success py-0 px-2"><i class="bi bi-whatsapp"></i> WhatsApp Reply</a>
+              </div>
+            </div>
+            <div class="card-body p-3">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <strong class="d-block text-dark mb-1"><i class="bi bi-person-fill text-success me-1"></i> Patient: ${t.name} (${t.mobile})</strong>
+                  <div class="p-2 bg-light rounded border small text-secondary">
+                    <strong>ग्राहक की समस्या / Problem Message:</strong><br>
+                    "${t.message}"
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-bold text-dark mb-1"><i class="bi bi-prescription text-success me-1"></i> Doctor Solution Note (समाधान उत्तर):</label>
+                  <textarea class="form-control form-control-sm mb-2" id="solNote_${t.id}" rows="2" placeholder="डॉक्टर द्वारा सलाह / समाधान यहाँ लिखें...">${t.solutionNote || ''}</textarea>
+                  <div class="d-flex gap-2 align-items-center">
+                    <button class="btn btn-sm btn-naturopathy" onclick="saveSupportSolution('${t.id}')">
+                      <i class="bi bi-check-circle me-1"></i> Save Solution
+                    </button>
+                    <select class="form-select form-select-sm w-auto" onchange="changeTicketStatus('${t.id}', this.value)">
+                      <option value="Pending" ${t.status === 'Pending' ? 'selected' : ''}>Pending (लंबित)</option>
+                      <option value="In Progress" ${t.status === 'In Progress' ? 'selected' : ''}>In Progress (प्रक्रियाधीन)</option>
+                      <option value="Resolved" ${t.status === 'Resolved' ? 'selected' : ''}>Resolved (समाधान हो गया)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function saveSupportSolution(ticketId) {
+      const noteInput = document.getElementById(`solNote_${ticketId}`);
+      if (!noteInput) return;
+      const noteVal = noteInput.value.trim();
+      let tickets = JSON.parse(localStorage.getItem('drk_support_tickets') || '[]');
+      const t = tickets.find(x => x.id === ticketId);
+      if (t) {
+        t.solutionNote = noteVal;
+        if (t.status === 'Pending') t.status = 'In Progress';
+        localStorage.setItem('drk_support_tickets', JSON.stringify(tickets));
+        showToast('समाधान नोट सफलतापूर्वक सेव किया गया!');
+        renderAdminSupportTickets();
+      }
+    }
+
+    function changeTicketStatus(ticketId, newStatus) {
+      let tickets = JSON.parse(localStorage.getItem('drk_support_tickets') || '[]');
+      const t = tickets.find(x => x.id === ticketId);
+      if (t) {
+        t.status = newStatus;
+        localStorage.setItem('drk_support_tickets', JSON.stringify(tickets));
+        showToast(`टिकट स्थिति अपडेट: ${newStatus}`);
+        renderAdminSupportTickets();
+      }
+    }
+
+    // --- Dava Medicine Listing & Price Management Logic ---
+    function renderAdminProducts() {
+      const tbody = document.getElementById('adminProductsTableBody');
+      const badge = document.getElementById('totalMedicinesBadge');
+      if (badge) badge.textContent = PRODUCTS_DATA.length;
+
+      if (!tbody) return;
+
+      if (PRODUCTS_DATA.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" class="text-center text-muted py-4">कोई दवा लिस्टेड नहीं है। "+ Add New Medicine" पर क्लिक करें।</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = PRODUCTS_DATA.map(p => `
+        <tr>
+          <td class="fw-bold text-muted">#${p.id}</td>
+          <td>
+            <div class="d-flex align-items-center gap-2">
+              <div class="p-2 bg-success-subtle text-success rounded fs-5"><i class="bi ${p.icon || 'bi-capsule'}"></i></div>
+              <div>
+                <strong class="d-block text-dark">${p.name_hi || p.name_en}</strong>
+                <small class="text-muted">${p.name_en}</small>
+              </div>
+            </div>
+          </td>
+          <td class="small text-secondary" style="max-width: 200px;">${p.desc_hi || p.desc_en}</td>
+          <td><span class="fs-6 fw-bold text-success">₹${p.price}</span></td>
+          <td>
+            <span class="badge ${p.stock === 'out_of_stock' ? 'bg-danger' : 'bg-success'}">
+              ${p.stock === 'out_of_stock' ? 'Out of Stock' : 'In Stock'}
+            </span>
+          </td>
+          <td class="text-end">
+            <div class="btn-group btn-group-sm">
+              <button class="btn btn-outline-primary" title="Edit Medicine Details & Price" onclick="openEditMedicineModal(${p.id})">
+                <i class="bi bi-pencil-square me-1"></i> Edit
+              </button>
+              <button class="btn btn-outline-warning" title="Toggle Stock" onclick="toggleMedicineStock(${p.id})">
+                <i class="bi bi-arrow-repeat"></i> Toggle Stock
+              </button>
+              <button class="btn btn-outline-danger" title="Delete Medicine" onclick="deleteMedicine(${p.id})">
+                <i class="bi bi-trash"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function openAddMedicineModal() {
+      const title = document.getElementById('medicineModalTitle');
+      if (title) title.innerHTML = `<i class="bi bi-plus-circle me-2"></i> Add New Medicine / Dava`;
+      document.getElementById('medId').value = '';
+      document.getElementById('medNameHi').value = '';
+      document.getElementById('medNameEn').value = '';
+      document.getElementById('medPrice').value = '';
+      document.getElementById('medDescHi').value = '';
+      document.getElementById('medDescEn').value = '';
+      document.getElementById('medIcon').value = 'bi-box-seam';
+      document.getElementById('medStock').value = 'in_stock';
+
+      const modal = new bootstrap.Modal(document.getElementById('medicineModal'));
+      modal.show();
+    }
+
+    function openEditMedicineModal(id) {
+      const p = PRODUCTS_DATA.find(x => x.id === id);
+      if (!p) return;
+
+      const title = document.getElementById('medicineModalTitle');
+      if (title) title.innerHTML = `<i class="bi bi-pencil-square me-2"></i> Edit Medicine Details & Price`;
+      document.getElementById('medId').value = p.id;
+      document.getElementById('medNameHi').value = p.name_hi || p.name_en;
+      document.getElementById('medNameEn').value = p.name_en || p.name_hi;
+      document.getElementById('medPrice').value = p.price;
+      document.getElementById('medDescHi').value = p.desc_hi || p.desc_en;
+      document.getElementById('medDescEn').value = p.desc_en || p.desc_hi;
+      document.getElementById('medIcon').value = p.icon || 'bi-box-seam';
+      document.getElementById('medStock').value = p.stock || 'in_stock';
+
+      const modal = new bootstrap.Modal(document.getElementById('medicineModal'));
+      modal.show();
+    }
+
+    function handleSaveMedicine(e) {
+      e.preventDefault();
+      const idVal = document.getElementById('medId').value;
+      const nameHi = document.getElementById('medNameHi').value.trim();
+      const nameEn = document.getElementById('medNameEn').value.trim();
+      const price = parseFloat(document.getElementById('medPrice').value);
+      const descHi = document.getElementById('medDescHi').value.trim();
+      const descEn = document.getElementById('medDescEn').value.trim();
+      const icon = document.getElementById('medIcon').value;
+      const stock = document.getElementById('medStock').value;
+
+      if (idVal) {
+        // Edit existing
+        const existing = PRODUCTS_DATA.find(x => x.id == idVal);
+        if (existing) {
+          existing.name_hi = nameHi;
+          existing.name_en = nameEn;
+          existing.price = price;
+          existing.desc_hi = descHi;
+          existing.desc_en = descEn;
+          existing.icon = icon;
+          existing.stock = stock;
+        }
+        showToast('दवा का विवरण एवं रेट सफलतापूर्वक अपडेट हुआ!');
+      } else {
+        // Add new
+        const newId = PRODUCTS_DATA.length > 0 ? Math.max(...PRODUCTS_DATA.map(p => p.id)) + 1 : 1;
+        PRODUCTS_DATA.push({
+          id: newId,
+          name_hi: nameHi,
+          name_en: nameEn,
+          price,
+          desc_hi: descHi,
+          desc_en: descEn,
+          icon,
+          stock
+        });
+        showToast('नयी दवा सफलतापूर्वक स्टोर में लिस्ट हुई!');
+      }
+
+      localStorage.setItem('drk_products', JSON.stringify(PRODUCTS_DATA));
+      bootstrap.Modal.getInstance(document.getElementById('medicineModal')).hide();
+      renderProducts();
+      renderAdminProducts();
+    }
+
+    function toggleMedicineStock(id) {
+      const p = PRODUCTS_DATA.find(x => x.id === id);
+      if (p) {
+        p.stock = (p.stock === 'out_of_stock') ? 'in_stock' : 'out_of_stock';
+        localStorage.setItem('drk_products', JSON.stringify(PRODUCTS_DATA));
+        showToast(`स्टॉक अपडेट: ${p.name_hi || p.name_en} - ${p.stock === 'in_stock' ? 'In Stock' : 'Out of Stock'}`);
+        renderProducts();
+        renderAdminProducts();
+      }
+    }
+
+    function deleteMedicine(id) {
+      if (confirm('क्या आप निश्चित रूप से इस दवा को लिस्टिंग से हटाना चाहते हैं?')) {
+        PRODUCTS_DATA = PRODUCTS_DATA.filter(x => x.id !== id);
+        localStorage.setItem('drk_products', JSON.stringify(PRODUCTS_DATA));
+        showToast('दवा लिस्टिंग से हटा दी गई!');
+        renderProducts();
+        renderAdminProducts();
+      }
+    }
+
+    function generateAdminPrescId() {
+      const idInput = document.getElementById('adminPrescId');
+      if (idInput) {
+        idInput.value = 'DRK-' + Math.floor(100000 + Math.random() * 900000);
+      }
+    }
+
+    function resetAdminPrescForm() {
+      const form = document.getElementById('adminPrescForm');
+      if (form) form.reset();
+      const dateInput = document.getElementById('adminPrescDate');
+      if (dateInput) dateInput.value = new Date().toISOString().split('T')[0];
+      const idInput = document.getElementById('adminPrescId');
+      if (idInput && !idInput.value) generateAdminPrescId();
+      const followInput = document.getElementById('adminPrescFollowup');
+      if (followInput && !followInput.value) followInput.value = '15 दिन पश्चात पुनः दिखाएं।';
+    }
+
+    function handleSaveAdminPrescription(e) {
+      e.preventDefault();
+      
+      const id = document.getElementById('adminPrescId').value.trim();
+      const patientName = document.getElementById('adminPrescPatientName').value.trim();
+      const age = document.getElementById('adminPrescAge').value.trim();
+      const gender = document.getElementById('adminPrescGender').value;
+      const date = document.getElementById('adminPrescDate').value;
+      const diagnosis = document.getElementById('adminPrescDiagnosis').value.trim();
+      const dietAdvice = document.getElementById('adminPrescDiet').value.trim();
+      const herbalAdvice = document.getElementById('adminPrescHerbal').value.trim();
+      const lifestyleAdvice = document.getElementById('adminPrescLifestyle').value.trim();
+      const followUp = document.getElementById('adminPrescFollowup').value.trim() || '15 दिन पश्चात पुनः दिखाएं।';
+
+      if (!id || !patientName || !diagnosis || !dietAdvice || !herbalAdvice || !lifestyleAdvice) {
+        showToast('कृपया सभी आवश्यक विवरण भरें!', false);
+        return;
+      }
+
+      const prescData = {
+        id,
+        patientName,
+        age,
+        gender,
+        date,
+        diagnosis,
+        dietAdvice,
+        herbalAdvice,
+        lifestyleAdvice,
+        followUp
+      };
+
+      let prescs = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+      const existingIdx = prescs.findIndex(p => p.id === id);
+      if (existingIdx >= 0) {
+        prescs[existingIdx] = prescData;
+        showToast(`ई-प्रिस्क्रिप्शन (${id}) सफलतापूर्वक अपडेट हुआ!`);
+      } else {
+        prescs.unshift(prescData);
+        showToast(`नया डिजिटल ई-प्रिस्क्रिप्शन (${id}) जारी एवं सेव किया गया!`);
+      }
+
+      localStorage.setItem('drk_prescriptions', JSON.stringify(prescs));
+
+      // Mark matching appointment as Completed if applicable
+      let appts = JSON.parse(localStorage.getItem('drk_appointments') || '[]');
+      const matchedAppt = appts.find(a => a.id === id);
+      if (matchedAppt) {
+        matchedAppt.status = 'Completed';
+        localStorage.setItem('drk_appointments', JSON.stringify(appts));
+      }
+
+      resetAdminPrescForm();
+      renderAdminPrescriptionsHistory();
+      renderAdminAppointments();
+      renderDashboard();
+    }
+
+    function renderAdminAppointments() {
+      const appts = JSON.parse(localStorage.getItem('drk_appointments') || '[]');
+      const container = document.getElementById('adminApptsList');
+      if (!container) return;
+
+      if (appts.length === 0) {
+        container.innerHTML = `<div class="p-3 text-muted border rounded">कोई अपॉइंटमेंट दर्ज नहीं है।</div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="table-responsive bg-white border rounded-3">
+          <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+              <tr>
+                <th>ID</th>
+                <th>Patient Name</th>
+                <th>Mobile</th>
+                <th>Date & Time</th>
+                <th>Problem</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${appts.map(a => `
+                <tr>
+                  <td><span class="badge bg-success font-monospace">${a.id}</span></td>
+                  <td class="fw-bold">${a.name} (${a.age}/${a.gender})</td>
+                  <td>${a.mobile}</td>
+                  <td>${a.date}<br><small class="text-muted">${a.time}</small></td>
+                  <td class="small text-secondary">${a.problem}</td>
+                  <td><span class="badge ${a.status === 'Completed' ? 'bg-success' : 'bg-warning text-dark'}">${a.status}</span></td>
+                  <td>
+                    <button class="btn btn-sm btn-outline-success" onclick="quickFillPrescription('${a.id}', '${a.name.replace(/'/g, "\\'")}', '${a.age}', '${a.gender}', '${(a.problem || '').replace(/'/g, "\\'")}')">
+                      <i class="bi bi-file-earmark-medical me-1"></i> Auto-Fill Form
+                    </button>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function quickFillPrescription(id, name, age, gender, problem) {
+      const idInput = document.getElementById('adminPrescId');
+      if (idInput) idInput.value = id || '';
+      const nameInput = document.getElementById('adminPrescPatientName');
+      if (nameInput) nameInput.value = name || '';
+      const ageInput = document.getElementById('adminPrescAge');
+      if (ageInput) ageInput.value = age || '';
+      const genderInput = document.getElementById('adminPrescGender');
+      if (genderInput && gender) genderInput.value = gender;
+      const diagInput = document.getElementById('adminPrescDiagnosis');
+      if (diagInput && problem) diagInput.value = problem;
+      const dateInput = document.getElementById('adminPrescDate');
+      if (dateInput) dateInput.value = new Date().toISOString().split('T')[0];
+
+      const formCard = document.getElementById('adminPrescFormCard');
+      if (formCard) formCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      showToast(`अपॉइंटमेंट डाटा फॉर्म में ऑटो-फिल हो गया (${name})`);
+    }
+
+    function renderAdminPrescriptionsHistory() {
+      const prescs = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+      const container = document.getElementById('adminPrescriptionsHistoryList');
+      const badge = document.getElementById('issuedPrescBadge');
+      if (badge) badge.textContent = prescs.length;
+
+      if (!container) return;
+
+      if (prescs.length === 0) {
+        container.innerHTML = `<div class="p-3 text-muted border rounded">कोई डिजिटल पर्चा जारी नहीं हुआ है। ऊपर फॉर्म भरकर सेव करें।</div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="table-responsive bg-white border rounded-3">
+          <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+              <tr>
+                <th>Rx ID</th>
+                <th>Patient Name</th>
+                <th>Issue Date</th>
+                <th>Diagnosis Summary</th>
+                <th class="text-end">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${prescs.map(p => `
+                <tr>
+                  <td><span class="badge bg-success font-monospace">${p.id}</span></td>
+                  <td class="fw-bold">${p.patientName} (${p.age}/${p.gender})</td>
+                  <td class="small text-muted">${p.date}</td>
+                  <td class="small text-secondary" style="max-width: 200px;">${p.diagnosis}</td>
+                  <td class="text-end">
+                    <div class="btn-group btn-group-sm">
+                      <button class="btn btn-outline-success" title="View / Print Prescription" onclick="viewPrescriptionFromAdmin('${p.id}')">
+                        <i class="bi bi-printer me-1"></i> View/Print
+                      </button>
+                      <button class="btn btn-outline-primary" title="Edit Prescription" onclick="editAdminPrescription('${p.id}')">
+                        <i class="bi bi-pencil"></i> Edit
+                      </button>
+                      <button class="btn btn-outline-danger" title="Delete Prescription" onclick="deleteAdminPrescription('${p.id}')">
+                        <i class="bi bi-trash"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function viewPrescriptionFromAdmin(id) {
+      const adminModalEl = document.getElementById('adminDashboardModal');
+      if (adminModalEl) {
+        const modalInst = bootstrap.Modal.getInstance(adminModalEl);
+        if (modalInst) modalInst.hide();
+      }
+      const searchInput = document.getElementById('searchPrescriptionInput');
+      if (searchInput) searchInput.value = id;
+      location.href = '#prescription';
+      searchPrescription();
+    }
+
+    function editAdminPrescription(id) {
+      const prescs = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+      const p = prescs.find(x => x.id === id);
+      if (!p) return;
+
+      document.getElementById('adminPrescId').value = p.id;
+      document.getElementById('adminPrescPatientName').value = p.patientName;
+      document.getElementById('adminPrescAge').value = p.age;
+      document.getElementById('adminPrescGender').value = p.gender;
+      document.getElementById('adminPrescDate').value = p.date;
+      document.getElementById('adminPrescDiagnosis').value = p.diagnosis;
+      document.getElementById('adminPrescDiet').value = p.dietAdvice;
+      document.getElementById('adminPrescHerbal').value = p.herbalAdvice;
+      document.getElementById('adminPrescLifestyle').value = p.lifestyleAdvice;
+      document.getElementById('adminPrescFollowup').value = p.followUp || '';
+
+      const formCard = document.getElementById('adminPrescFormCard');
+      if (formCard) formCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      showToast(`डिजिटल पर्चा (${id}) एडिट हेतु फॉर्म में लोड हुआ।`);
+    }
+
+    function deleteAdminPrescription(id) {
+      if (confirm(`क्या आप डिजिटल पर्चा (${id}) को डिलीट करना चाहते हैं?`)) {
+        let prescs = JSON.parse(localStorage.getItem('drk_prescriptions') || '[]');
+        prescs = prescs.filter(x => x.id !== id);
+        localStorage.setItem('drk_prescriptions', JSON.stringify(prescs));
+        showToast(`प्रिस्क्रिप्शन ${id} डिलीट कर दिया गया।`);
+        renderAdminPrescriptionsHistory();
+        renderDashboard();
+      }
+    }
+
+    function renderAdminOrders() {
+      const orders = JSON.parse(localStorage.getItem('drk_orders') || '[]');
+      const container = document.getElementById('adminOrdersList');
+      if (!container) return;
+
+      if (orders.length === 0) {
+        container.innerHTML = `<div class="p-3 text-muted border rounded">कोई स्टोर आर्डर दर्ज नहीं है।</div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="table-responsive bg-white border rounded-3">
+          <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+              <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Address</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${orders.map(o => `
+                <tr>
+                  <td><span class="badge bg-primary">${o.id}</span></td>
+                  <td class="fw-bold">${o.name}<br><small class="text-muted">${o.mobile}</small></td>
+                  <td class="small text-secondary">${o.address}</td>
+                  <td><span class="fw-bold text-success">₹${o.amount}</span></td>
+                  <td><span class="badge bg-info text-dark">${o.status}</span></td>
+                  <td>
+                    <select class="form-select form-select-sm" onchange="updateOrderStatus('${o.id}', this.value)">
+                      <option value="Order Placed" ${o.status === 'Order Placed' ? 'selected' : ''}>Order Placed</option>
+                      <option value="Dispatched" ${o.status === 'Dispatched' ? 'selected' : ''}>Dispatched</option>
+                      <option value="Delivered" ${o.status === 'Delivered' ? 'selected' : ''}>Delivered</option>
+                    </select>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function updateOrderStatus(orderId, newStatus) {
+      let orders = JSON.parse(localStorage.getItem('drk_orders') || '[]');
+      const o = orders.find(x => x.id === orderId);
+      if (o) {
+        o.status = newStatus;
+        localStorage.setItem('drk_orders', JSON.stringify(orders));
+        showToast(`Order ${orderId} Status Updated: ${newStatus}`);
+        renderDashboard();
+        renderAdminOrders();
+      }
+    }
+  </script>
+</body>
+</html>

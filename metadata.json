@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Ranjeet Kumar Naturopathy Clinic",
+  "description": "Digital Healthcare Web Application for Dr. Ranjeet Kumar Naturopathy Clinic, Sirdala, Nawada, Bihar",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
